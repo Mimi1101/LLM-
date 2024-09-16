@@ -1,7 +1,10 @@
 import re
 import random
-import itertools
+import argparse
 import collections
+from typing import Union
+import requests
+import pickle
 
 class Ngram:
 
@@ -82,171 +85,88 @@ class Ngram:
 
         self.probabilites()
 
-    def predict_next_word(self, input : tuple, determenistic : bool = False):  
-        if (self.n == 1):
-            if(len(input) != 1):
-                print("Error: Unigram model, there should only be one input.")
-                return 
-            current_word = input[0].lower()
-        elif (self.n == 2):
-                if(len(input) != 2):
-                    print("Error: Bigram model, there should be two inputs")
-                    return 
-                current_word = (input[0].lower(), input[1].lower())
+    def predict_next_word(self, input: tuple, deterministic: bool = False):
 
-        if current_word not in self.probabilites_dictionary:
-            print(f"Error: The word'{current_word}' is not in the dictionary")
-            return
-
-        probs = self.probabilites_dictionary[current_word]
-
-        if determenistic:
-            next_word = max(probs, key= probs.get)
-            return next_word
-        else: 
-            words = list(probs.keys())
-            probabilties = list(probs.values())
-            rand = random.choices(words, weights=probabilties)[0]
-            return rand
+        if self.n == 1:
+            current_word = input[0]
+            
+            if current_word not in self.probabilites_dictionary:
+                print (" The word is not in the vocabulary")
+            probabilities = self.probabilites_dictionary[current_wordword]
+                
 
 
 
-# # Set random seed for reproducibility
-# random.seed(42)
-
-# # Test data
-# test_text = "The quick brown fox jumps over the lazy dog. The dog barks at the fox. The fox runs away quickly."
-
-# # Test unigram model
-# print("Testing Unigram Model:")
-# unigram = Ngram(1)
-# unigram.train(test_text)
-
-# print("\nUnigram probabilities:")
-# print(unigram.probabilites())
-
-# print("\nPredicting next word after 'the' (deterministic):")
-# print(unigram.predict_next_word(("the",), determenistic=True))
-
-# print("\nPredicting next word after 'the' (non-deterministic):")
-# for _ in range(5):
-#     print(unigram.predict_next_word(("the",), determenistic=False))
-
-# # Test bigram model
-# print("\n\nTesting Bigram Model:")
-# bigram = Ngram(2)
-# bigram.train(test_text)
-
-# print("\nBigram probabilities:")
-# print(bigram.probabilites())
-
-# print("\nPredicting next word after 'the fox' (deterministic):")
-# print(bigram.predict_next_word(("the", "fox"), determenistic=True))
-
-# print("\nPredicting next word after 'the fox' (non-deterministic):")
-# for _ in range(5):
-#     print(bigram.predict_next_word(("the", "fox"), determenistic=False))
-
-# # Test error cases
-# print("\nTesting error cases:")
-# try:
-#     Ngram(3)
-# except ValueError as e:
-#     print(f"ValueError: {e}")
-
-# unigram.predict_next_word(("nonexistent",))
-# bigram.predict_next_word(("the",))
-# bigram.predict_next_word(("nonexistent", "word"))
-
-# # Expected Output:
-# """
-# Testing Unigram Model:
-
-# Unigram probabilities:
-# {'the': {'quick': 0.2, 'lazy': 0.2, 'dog': 0.2, 'fox': 0.4}, 'quick': {'brown': 1.0}, 'brown': {'fox': 1.0}, 'fox': {'jumps': 0.5, 'runs': 0.5}, 'jumps': {'over': 1.0}, 'over': {'the': 1.0}, 'lazy': {'dog': 1.0}, 'dog': {'the': 0.5, 'barks': 0.5}, 'barks': {'at': 1.0}, 'at': {'the': 1.0}, 'runs': {'away': 1.0}, 'away': {'quickly': 1.0}, 'quickly': {'the': 1.0}}
-
-# Predicting next word after 'the' (deterministic):
-# fox
-
-# Predicting next word after 'the' (non-deterministic):
-# fox
-# dog
-# quick
-# fox
-# lazy
 
 
-# Testing Bigram Model:
-
-# Bigram probabilities:
-# {('the', 'quick'): {'brown': 1.0}, ('quick', 'brown'): {'fox': 1.0}, ('brown', 'fox'): {'jumps': 1.0}, ('fox', 'jumps'): {'over': 1.0}, ('jumps', 'over'): {'the': 1.0}, ('over', 'the'): {'lazy': 1.0}, ('the', 'lazy'): {'dog': 1.0}, ('lazy', 'dog'): {'the': 1.0}, ('the', 'dog'): {'barks': 1.0}, ('dog', 'barks'): {'at': 1.0}, ('barks', 'at'): {'the': 1.0}, ('the', 'fox'): {'runs': 1.0}, ('fox', 'runs'): {'away': 1.0}, ('runs', 'away'): {'quickly': 1.0}}
-
-# Predicting next word after 'the fox' (deterministic):
-# runs
-
-# Predicting next word after 'the fox' (non-deterministic):
-# runs
-# runs
-# runs
-# runs
-# runs
-
-# Testing error cases:
-# ValueError: Can only support unigram and bigram.
-# Error: The word'nonexistent' is not in the dictionary
-# Error: Bigram model, there should be two inputs
-# Error: The word('nonexistent', 'word') is not in the dictionary
-# """
 
 class BPE:
-    
+    """
+    count = 1
+    self.mydictionary = new dictionary
+
+    Every time adding value to set,
+    if set.doesNotContain(value)
+        self.mydictionary[count] = value
+        count++
+    """
+
 
     def __init__(self):
         self.vocabulary = {}
 
-    def train(self, data, k : int = 500):
+    def train_bpe(self, data, k : int = 500):
         tokens = self.split_data_BPE(data)
-        # Initialize vocabulary with individual tokens
-        self.vocabulary = {token: i for i, token in enumerate(set(tokens))}
+    # Initialize vocabulary with individual tokens
+        self.vocabulary = set(tokens)
         
-        for _ in range(k):
-            double_pairs = list(itertools.pairwise(tokens))
+        for _   in range(k):
+            # Create pairs from consecutive tokens
+            double_pairs = list(zip(tokens, tokens[1:]))
             pair_counts = collections.Counter(double_pairs)
             if not pair_counts:
                 break
-            most_frequency = max(pair_counts, key=pair_counts.get)
-            new_token = ''.join(most_frequency)
-            self.vocabulary[new_token] = len(self.vocabulary)
-            # you need to replace the merged token in the vocabulary right?
-            tokens = self.merge_tokens(tokens, most_frequency, new_token)
+            most_frequent = max(pair_counts, key=pair_counts.get)
+            new_token = ''.join(most_frequent)          
+            # Update the vocabulary
+            self.vocabulary.add(new_token)
+            new_merge_tokens = []
+            skipping = False
+            for i in range(len(tokens) - 1):
+                if skipping:
+                    skipping = False
+                    continue
+                if(tokens[i], tokens[i+1] )== most_frequent:
+                    new_merge_tokens.append(new_token)
+                    skipping = True
+                else:
+                    new_merge_tokens.append(tokens[i])
+            if not skipping:
+                new_merge_tokens.append(tokens[-1])
+            tokens = new_merge_tokens
+        print(self.vocabulary)
+        return self.vocabulary
+
 
     def tokenize(self, text):
         tokens = self.split_data_BPE(text)
         token_results = []
         token_ids = []
-
+    
         counter = 0
         while counter < len(tokens):
+            current_token = tokens[counter]
             for j in range(len(tokens), counter, -1):
                 segment = ''.join(tokens[counter:j])
                 if segment in self.vocabulary:
-                    token_results.append(segment)
-                    token_ids.append(self.vocabulary[segment])
-                    counter = j
+                    current_token = segment
+                    counter = j - 1
                     break
-                else:
-                    token_results.append(tokens[counter])
-                    token_ids.append(self.vocabulary.get(tokens[counter], len(self.vocabulary)))
-                    counter += 1
+            token_results.append(current_token)
+            token_ids.append(list(self.vocabulary).index(current_token))
+            counter += 1
+
         return token_results, token_ids
-
-
-    def merge_tokens(self, tokens, pair, new_token):
-        token_str = ''.join(tokens)
-        pair_str = ''.join(pair)
-        token_str = token_str.replace(pair_str, new_token)
-        return token_str.split()
-
       
 
     def split_data_BPE(self, text):
@@ -259,30 +179,101 @@ class BPE:
             else: 
                 # For punctuation, just append the token
                 processed_tokens.append(token)
+        #print(processed_tokens)
         return processed_tokens
     
-    
+# def train_ngram(data):
+#     with open(r)   
 
-# Create a BPE instance
-bpe = BPE()
+def save_model(model: Union[Ngram, BPE], path: str) -> None:
+    """Save the model to a file using pickle."""
+    with open(path, 'wb') as f:
+        pickle.dump(model, f)
 
-# Train the model
-training_text = "How much wood could a woodchuck chuck?"
-bpe.train(training_text, k=2)
+def load_model(path: str) -> Union[Ngram, BPE]:
+    """Load the model from a file using pickle."""
+    with open(path, 'rb') as f:
+        return pickle.load(f)
 
-# Tokenize the same text
-tokens, token_ids = bpe.tokenize(training_text)
+def train_ngram(args):
+     model = Ngram(args.n)  # Pass the 'n' argument here
+     try:
+            with open(args.data, 'r', encoding='utf-8') as f:  # Specify utf-8 encoding
+                corpus = f.read()
+            model.train(corpus)
+            save_model(model, args.save)
+     except UnicodeDecodeError:
+            print("Error: Unable to read the file. It may be encoded in a different format.")
+            print("Try opening the file in a text editor and saving it with UTF-8 encoding.")
+     except IOError:
+            print(f"Error: Unable to read the file at {args.data}. Please check if the file exists and you have permission to read it.")
 
-# Print results
-print("Vocabulary:", bpe.vocabulary)
-print("Tokens:", tokens)
-print("Token IDs:", token_ids)
+
+def predict_ngram(args):
+    """Load an N-gram model and use it for prediction."""
+    model = load_model(args.load)
+    predictions = model.predict_next_word(args.word, False)
+    print(predictions)
+
+def train_bpe(args):
+    """Train a BPE tokenizer and save it."""
+    model = BPE()
+    with open(args.data, 'r') as f:
+        corpus = f.read()
+    model.train(corpus)
+    save_model(model, args.save)
+
+def tokenize(args):
+    """Load a BPE tokenizer and use it for tokenization."""
+    model = load_model(args.load)
+    tokens = model.tokenize(args.text)
+    print(' '.join(tokens))
+
+def main():
+    parser = argparse.ArgumentParser(description="NLP tools for N-gram models and BPE tokenization")
+    parser.add_argument("activity", choices=["train_ngram", "predict_ngram", "train_bpe", "tokenize"],
+                        help="Select which activity to perform")
+    parser.add_argument("--data", help="Path to the training data corpus")
+    parser.add_argument("--save", help="Path to save the trained model")
+    parser.add_argument("--load", help="Path to load the trained model")
+    parser.add_argument("--word", help="Initial word(s) for prediction")
+    parser.add_argument("--nwords", type=int, help="Number of words to predict")
+    parser.add_argument("--text", help="Text to tokenize")
+    parser.add_argument("--n", type=int, choices=[1, 2], help="Order of the N-gram model")
+    parser.add_argument("--d", action="store_true", help="Set deterministic flag for prediction")
+    args = parser.parse_args()
         
 
+    if args.activity == "train_ngram":
+        if not args.data or not args.save or args.n is None:
+            parser.error("train_ngram requires --data, --save, and --n arguments")
+        train_ngram(args)
+    elif args.activity == "predict_ngram":
+        if not args.load or not args.word:
+            parser.error("predict_ngram requires --load and --word arguments")
+        predict_ngram(args)
+    elif args.activity == "train_bpe":
+        if not args.data or not args.save:
+            parser.error("train_bpe requires --data and --save arguments")
+        train_bpe(args)
+    elif args.activity == "tokenize":
+        if not args.load or not args.text:
+            parser.error("tokenize requires --load and --text arguments")
+        tokenize(args)
 
+if __name__ == "__main__":
+
+    # url = "https://www.gutenberg.org/files/2701/2701-0.txt"
+    # response = requests.get(url)
+    # if response.status_code == 200:
+    # # Save the content to a .txt file
+    #     with open("Moby_Dick.txt", "w", encoding='utf-8') as file:
+    #         file.write(response.text)
+    #     print("Moby Dick has been successfully saved as 'Moby_Dick.txt'")
+    # else:
+    #     print("Failed to retrieve the text. Status code:", response.status_code)
+
+    main()
     
 
-
-
-
-
+    
