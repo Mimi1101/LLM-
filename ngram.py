@@ -15,16 +15,29 @@ class Ngram:
         regex = r"\w+|[^\w\s]"
         splitted_words = re.findall(regex, texts)
         return splitted_words
+   
+
     
     def calculate_probabilities(self, words):
+        
+
         if self.n == 1:
             # Unigram model
             total_word_count = len(words)  # Total number of words
             self.probabilities_dictionary = {}
 
-            for word, count in self.unique_words_dictionary.items():
-                self.probabilities_dictionary[word] = count / total_word_count
+            for word in self.unique_words_dictionary:
+                word_count = self.unique_words_dictionary[word]
+                probability = word_count/total_word_count
+                self.probabilities_dictionary[word] = probability
 
+                self.unseen_word = 1/(total_word_count*10)
+                if word in self.probabilities_dictionary[word]:
+                    return self.probabilities_dictionary[word]
+                else:
+                    return self.unseen_word
+           
+            
         elif self.n == 2:
             # Bigram model
             self.probabilities_dictionary = {}
@@ -68,6 +81,7 @@ class Ngram:
             if current_word not in self.probabilities_dictionary:
                 print("Error: Word not found in vocabulary.")
                 return None
+            
             
             probabilities = self.probabilities_dictionary[current_word]
             
@@ -180,14 +194,5 @@ def main():
         
 if __name__ == "__main__":
 
-    # url = "https://www.gutenberg.org/files/2701/2701-0.txt"
-    # response = requests.get(url)
-    # if response.status_code == 200:
-    # # Save the content to a .txt file
-    #     with open("Moby_Dick.txt", "w", encoding='utf-8') as file:
-    #         file.write(response.text)
-    #     print("Moby Dick has been successfully saved as 'Moby_Dick.txt'")
-    # else:
-    #     print("Failed to retrieve the text. Status code:", response.status_code)
-
+   
     main()
