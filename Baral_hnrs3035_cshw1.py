@@ -1,233 +1,278 @@
-import re
-import random
 import argparse
-import collections
-from typing import Union
-import requests
+from itertools import pairwise
+import random
+import re
 import pickle
+from collections import Counter, OrderedDict
+import tqdm
 
+"""
+This class is for predicitng next tokens using unigram and bigram
+"""
 class Ngram:
 
+    #Initializing n, unique words and probbailties
     def __init__(self, n):
-       self.n = n
-       if n not in [1, 2]:
-           raise ValueError("Can only support unigram and bigram.")
-
-    
+        self.n = n
+        if n not in [1, 2]:
+            raise ValueError("Can only support unigram and bigram.")
+        self.unique_words_dictionary = {}
+        self.probabilities_dictionary = {}
+        
+    # Splitting words icluding punctuations
     def split_words(self, texts):
         regex = r"\w+|[^\w\s]"
         splitted_words = re.findall(regex, texts)
+        print(splitted_words)
         return splitted_words
     
-    def probabilites(self):
-        self.probabilites_dictionary = {}
-        for word in self.unique_words_dictionary:
-            self.probabilites_dictionary[word] = {}
-            total_count = sum(self.unique_words_dictionary[word].values())
-            for next_word, count in self.unique_words_dictionary[word].items():
-                probability = count/total_count
-                self.probabilites_dictionary[word][next_word] = probability
-        return self.probabilites_dictionary
-    
+
     def train(self, data):
-        words = self.split_words(data)
-        lowercase = [word.lower() for word in words]
-        #converting all the words to lowercase to ensure uniqueness in words
-        self.unique_words = set(lowercase)
-        self.unique_words_dictionary = {}
-        lala = self.unique_words
-       #self.n = 2 is not iterating thorugh unique words or i guess it is and i am tripping
-      
-        if (self.n == 1):
-            self.unique_words_dictionary = {word: {} for word in self.unique_words}
-            for i in range(len(lowercase) -1):
-                current_word = lowercase[i]
-                next_word = lowercase[i+1]
-                if next_word not in self.unique_words_dictionary[current_word]:
-                    self.unique_words_dictionary[current_word][next_word] = 1
-                else:
-                    self.unique_words_dictionary[current_word][next_word] += 1
+        """
+        Train the n-gram model (unigram or bigram) on the provided data.
+
+        """
+        #Split the data
+        data = self.split_words(data)
+        #Counting the freuency for every word
+        word_counts = Counter(data)
         
-        if (self.n == 2):
-            for i in range(len(lowercase) - 2):
-                current_words = (lowercase[i], lowercase[i+1])
-                next_word = lowercase[i+2]
-                if current_words not in self.unique_words_dictionary:
-                    self.unique_words_dictionary[current_words] = {}
-                if next_word not in self.unique_words_dictionary[current_words]:
-                    self.unique_words_dictionary[current_words][next_word] = 1
-                else:
-                    self.unique_words_dictionary[current_words][next_word] += 1   
-
-        """
-        if (self.n == 2):
-    processed_pairs = set()  # Track unique pairs
-    for i in range(len(lowercase) - 2):
-        current_words = (lowercase[i], lowercase[i+1])
-        next_word = lowercase[i+2]
-
-        if current_words in processed_pairs:
-            continue  # Skip if pair already processed
-
-        processed_pairs.add(current_words)  # Mark this pair as processed
-
-        if current_words not in self.unique_words_dictionary:
-            self.unique_words_dictionary[current_words] = {}
-
-        if next_word not in self.unique_words_dictionary[current_words]:
-            self.unique_words_dictionary[current_words][next_word] = 1
-        else:
-            self.unique_words_dictionary[current_words][next_word] += 1
-
-        """
-
-
-
-        self.probabilites()
-
-    def predict_next_word(self, input: tuple, deterministic: bool = False):
-
+        #Unigram Model Logic
         if self.n == 1:
-            current_word = input[0]
+            #add unique values to the unique words dictionary along with their frequency
+            self.unique_words_dictionary = dict(word_counts)
+            total_tokens = len(data)
+            #counting the probbaility for each word
+            for word, count in word_counts.items():
+                self.probabilities_dictionary[word] = count/total_tokens
+        #Bigram logic
+        elif self.n == 2:
+            # creating pairs of adjacent words
+            bigrams = [(data[i], data[i + 1]) for i in range(len(data) - 1)]
+            bigram_counts = Counter(bigrams)
+            # add unique pairs and their frequency to the dictionary
+            self.unique_words_dictionary = dict(bigram_counts)
+            # print("Unique Bigrams:", self.unique_words_dictionary)  
+            total_bigrams = len(bigrams)
+            # count the probability
+            for bigram, count in bigram_counts.items():
+                self.probabilities_dictionary[bigram] = count / total_bigrams
             
-            if current_word not in self.probabilites_dictionary:
-                print (" The word is not in the vocabulary")
-            probabilities = self.probabilites_dictionary[current_wordword]
-                
+            
+    def predict_next_word(self, input: tuple, deterministic: bool = False):
+        """
+        Predict the next word based on the trained model.
+        Returns:
+        - The predicted next word or None if no valid prediction is found.
+        """
+        #If its a unigram model
+        if self.n == 1:
+            word1 = input[0] # the first word in  input
+            if word1 not in self.probabilities_dictionary: # error check
+                print("Error: The word does not exist in the vocabulary.")
+                return
+            # list of all words and their probbailties
+            words = list(self.probabilities_dictionary.keys())
+            probabilities = list(self.probabilities_dictionary.values())
 
+            # if true select the word with highest probs
+            if deterministic:
+                max_prob_index = probabilities.index(max(probabilities))
+                next_word = words[max_prob_index]
+                return next_word
+            #otherwise select randomly based on probs
+            else:
+                next_word = random.choices(words, weights=probabilities, k=1)
+                return next_word[0]
+        # bigram logic
+        elif self.n == 2:
+            words = [] # storing next words
+            probabilities = [] # probs
 
+            for bigram, prob in self.probabilities_dictionary.items():
+                #print("Checking bigram:", bigram) 
+                if bigram[0] == input[1]:  # Check if the first word of the bigram matches the second word of the input
+                    words.append(bigram[1]) # Add the second word of the bigram to the possible next words
+                    probabilities.append(prob) # Add the probability of the bigram to the list
+
+            # Check if words and probabilities are empty
+            if not words or not probabilities:
+                print("Error: No valid next words found for the given bigram.")
+                return None
+            # deterministic is true so returning the word with highest probs
+            if deterministic:
+                max_prob_index = probabilities.index(max(probabilities))
+                next_word = words[max_prob_index]
+                return next_word
+            #otherwise select randomly based on probs
+            else:
+                next_word = random.choices(words, weights=probabilities, k=1)
+                return next_word[0]
 
 
 
 
 class BPE:
     """
-    count = 1
-    self.mydictionary = new dictionary
-
-    Every time adding value to set,
-    if set.doesNotContain(value)
-        self.mydictionary[count] = value
-        count++
+    A class to implement Byte Pair Encoding (BPE) for text tokenization.
     """
-
-
+    # initialzing the voabulary
     def __init__(self):
-        self.vocabulary = {}
+        self.vocabulary = OrderedDict()
 
-    def train_bpe(self, data, k : int = 500):
-        tokens = self.split_data_BPE(data)
-    # Initialize vocabulary with individual tokens
-        self.vocabulary = set(tokens)
+    #splitting the texts into characters alsong with spaces
+    def split_characters(self, text):
+        return list(text)
+    
+    #Replace occurrences of a specific character pair with a merged version.
+    def replace_pair(self, characters, pair_to_replace):
+        new_characters = []
+        i = 0
+        while i < len(characters):
+            if i < len(characters) - 1 and characters[i] + characters[i+1] == pair_to_replace:
+                new_characters.append(pair_to_replace)
+                i += 2
+            else:
+                new_characters.append(characters[i])
+                i += 1
+        return new_characters
+
+    def train(self, corpus, k: int = 500):
+        #Spliiitng the words into characters
+        characters = self.split_characters(corpus)
+        self.all_merges = []
+
+        # Initialize vocabulary with individual unique characters 
+        for char in characters:
+            if char not in self.vocabulary:
+                self.vocabulary[char] = len(self.vocabulary)
         
-        for _   in range(k):
-            # Create pairs from consecutive tokens
-            double_pairs = list(zip(tokens, tokens[1:]))
-            pair_counts = collections.Counter(double_pairs)
-            if not pair_counts:
+        # For k iterations along with a plot to keep track of progress
+        for _ in tqdm.tqdm(range(k), desc="Training BPE", unit="iter"):
+
+            # Create pairs of adjacent characters
+            pairs = [''.join(pair) for pair in pairwise(characters)]
+
+            # Count frequency of each pair
+            pair_frequency = Counter(pairs)
+
+            if not pair_frequency:
+                break  # Exit if there are no pairs left to process
+
+
+            # Find all pairs with the maximum frequency
+            most_frequent_pair = pair_frequency.most_common(1)
+            if not most_frequent_pair:
                 break
-            most_frequent = max(pair_counts, key=pair_counts.get)
-            new_token = ''.join(most_frequent)          
-            # Update the vocabulary
-            self.vocabulary.add(new_token)
-            new_merge_tokens = []
-            skipping = False
-            for i in range(len(tokens) - 1):
-                if skipping:
-                    skipping = False
-                    continue
-                if(tokens[i], tokens[i+1] )== most_frequent:
-                    new_merge_tokens.append(new_token)
-                    skipping = True
-                else:
-                    new_merge_tokens.append(tokens[i])
-            if not skipping:
-                new_merge_tokens.append(tokens[-1])
-            tokens = new_merge_tokens
-        print(self.vocabulary)
-        return self.vocabulary
+            common_pair, freq = most_frequent_pair[0]
 
+            # Append the most frequent pair to the vocabulary
+            if common_pair not in self.vocabulary:
+                self.vocabulary[common_pair] = len(self.vocabulary)
+            self.all_merges.append(common_pair)
 
-    def tokenize(self, text):
-        tokens = self.split_data_BPE(text)
-        token_results = []
-        token_ids = []
+            # Replace occurrences of the most frequent pairs in the corpus
+            characters = self.replace_pair(characters, common_pair)
+
+            # print(f"Iteration {_+1}:")
+            # print(f"Updated Characters: {characters}")
+            # print(f"Updated Vocabulary: {self.vocabulary}")
     
-        counter = 0
-        while counter < len(tokens):
-            current_token = tokens[counter]
-            for j in range(len(tokens), counter, -1):
-                segment = ''.join(tokens[counter:j])
-                if segment in self.vocabulary:
-                    current_token = segment
-                    counter = j - 1
-                    break
-            token_results.append(current_token)
-            token_ids.append(list(self.vocabulary).index(current_token))
-            counter += 1
+    def tokenize(self, corpus):
+        # splitting the corpus into characters
+        characters = self.split_characters(corpus)
 
-        return token_results, token_ids
-      
+        # Apply merges in the same order as they were learned during training
+        for merge in self.all_merges:
+            characters = self.replace_pair(characters, merge)
 
-    def split_data_BPE(self, text):
-        tokens = re.findall(r'\b\w+\b|[.,!?;]', text)
-        processed_tokens = []
-        for token in tokens:
-            if token.isalnum():
-                # Split the alphanumeric token into characters and append '</w>' at the end
-                processed_tokens.extend(list(token) + ['</w>'])
-            else: 
-                # For punctuation, just append the token
-                processed_tokens.append(token)
-        #print(processed_tokens)
-        return processed_tokens
-    
-# def train_ngram(data):
-#     with open(r)   
+        # Map tokens to token IDs using the pre-trained vocabulary
+        token_ids = [self.vocabulary[token] for token in characters]
 
-def save_model(model: Union[Ngram, BPE], path: str) -> None:
+        #print(f"Updated Characters: {characters}")
+        return characters, token_ids
+
+
+#saving the model after training
+def save_model(model: BPE, path: str) -> None:
     """Save the model to a file using pickle."""
     with open(path, 'wb') as f:
         pickle.dump(model, f)
-
-def load_model(path: str) -> Union[Ngram, BPE]:
-    """Load the model from a file using pickle."""
-    with open(path, 'rb') as f:
-        return pickle.load(f)
-
+       
 def train_ngram(args):
-     model = Ngram(args.n)  # Pass the 'n' argument here
+     """
+     training n_gram for argparse
+     """
+     model = Ngram(args.n)  
      try:
-            with open(args.data, 'r', encoding='utf-8') as f:  # Specify utf-8 encoding
+            with open(args.data, 'r', encoding='utf-8') as f:  
                 corpus = f.read()
             model.train(corpus)
             save_model(model, args.save)
-     except UnicodeDecodeError:
-            print("Error: Unable to read the file. It may be encoded in a different format.")
-            print("Try opening the file in a text editor and saving it with UTF-8 encoding.")
      except IOError:
             print(f"Error: Unable to read the file at {args.data}. Please check if the file exists and you have permission to read it.")
 
-
 def predict_ngram(args):
-    """Load an N-gram model and use it for prediction."""
-    model = load_model(args.load)
-    predictions = model.predict_next_word(args.word, False)
-    print(predictions)
+        """
+        Predicting the next word 
+        """
+        # Load the model from the specified path
+        with open(args.load, 'rb') as f:
+            model = pickle.load(f)
+
+        n = model.n  # The 'n' in n-gram
+
+        # Prepare input words
+        if isinstance(args.word, str):
+            input_words = args.word.strip().lower().split()
+        else:
+            input_words = [word.lower() for word in args.word]
+
+
+        input_words = tuple(input_words)  # Convert to tuple
+
+        predictions = []
+        for _ in range(args.nwords):
+            # Predict the next word based on the current input
+            next_word = model.predict_next_word(input_words, deterministic=args.d)
+            if next_word:
+                predictions.append(next_word)
+                # For bigrams, shift the tuple by one word. For unigrams, use the new word.
+                input_words = (*input_words[1:], next_word) if n > 1 else (next_word,)
+            else:
+                break  # No next word predicted
+
+        print("Predicted words:", ' '.join(predictions))
 
 def train_bpe(args):
     """Train a BPE tokenizer and save it."""
     model = BPE()
-    with open(args.data, 'r') as f:
-        corpus = f.read()
-    model.train(corpus)
-    save_model(model, args.save)
+    try:
+            with open(args.data, 'r', encoding='utf-8') as f:  # Specify utf-8 encoding
+                corpus = f.read()
+            model.train(corpus, k= args.k)
+            save_model(model, args.save)
+            print(f"BPE model trained and saved to {args.save}")
+    except IOError:
+            print(f"Error: Unable to read the file at {args.data}. Please check if the file exists and you have permission to read it.")
+   
 
 def tokenize(args):
-    """Load a BPE tokenizer and use it for tokenization."""
-    model = load_model(args.load)
-    tokens = model.tokenize(args.text)
-    print(' '.join(tokens))
+    """Tokenize the given text using a loaded BPE model."""
+    # Load the BPE model
+    with open(args.load, 'rb') as f:
+        model = pickle.load(f)
+    
+    # Tokenize the text
+    tokens, token_ids = model.tokenize(args.text)
+    
+    # Print the results
+    print("Tokens:", tokens)
+    print("Token IDs:", token_ids)
+
+    print("\nTokens with their IDs:")
+    for token, token_id in zip(tokens, token_ids):
+        print(f"Token: {token}, ID: {token_id}")
 
 def main():
     parser = argparse.ArgumentParser(description="NLP tools for N-gram models and BPE tokenization")
@@ -238,13 +283,23 @@ def main():
     parser.add_argument("--load", help="Path to load the trained model")
     parser.add_argument("--word", help="Initial word(s) for prediction")
     parser.add_argument("--nwords", type=int, help="Number of words to predict")
-    parser.add_argument("--text", help="Text to tokenize")
-    parser.add_argument("--n", type=int, choices=[1, 2], help="Order of the N-gram model")
+    parser.add_argument("--text", nargs='+', help="Text to tokenize")
+    parser.add_argument("--n", type=int, choices=[1, 2], help="Unigram or bigram")
     parser.add_argument("--d", action="store_true", help="Set deterministic flag for prediction")
+    parser.add_argument("--k", type=int, default=500, help="Number of k in BPE")
     args = parser.parse_args()
         
 
-    if args.activity == "train_ngram":
+    if args.activity == "train_bpe":
+        if not args.data or not args.save:
+            parser.error("train_bpe requires --data and --save arguments")
+        train_bpe(args)
+    elif args.activity == "tokenize":
+        if not args.load or not args.text:
+            parser.error("tokenize requires --load and --text arguments")
+        args.text = ' '.join(args.text) 
+        tokenize(args)
+    elif args.activity == "train_ngram":
         if not args.data or not args.save or args.n is None:
             parser.error("train_ngram requires --data, --save, and --n arguments")
         train_ngram(args)
@@ -252,28 +307,6 @@ def main():
         if not args.load or not args.word:
             parser.error("predict_ngram requires --load and --word arguments")
         predict_ngram(args)
-    elif args.activity == "train_bpe":
-        if not args.data or not args.save:
-            parser.error("train_bpe requires --data and --save arguments")
-        train_bpe(args)
-    elif args.activity == "tokenize":
-        if not args.load or not args.text:
-            parser.error("tokenize requires --load and --text arguments")
-        tokenize(args)
 
 if __name__ == "__main__":
-
-    # url = "https://www.gutenberg.org/files/2701/2701-0.txt"
-    # response = requests.get(url)
-    # if response.status_code == 200:
-    # # Save the content to a .txt file
-    #     with open("Moby_Dick.txt", "w", encoding='utf-8') as file:
-    #         file.write(response.text)
-    #     print("Moby Dick has been successfully saved as 'Moby_Dick.txt'")
-    # else:
-    #     print("Failed to retrieve the text. Status code:", response.status_code)
-
     main()
-    
-
-    

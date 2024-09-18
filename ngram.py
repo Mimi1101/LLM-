@@ -3,114 +3,83 @@ import random
 import re
 import pickle
 from typing import Union 
-
+from collections import Counter
 
 class Ngram:
+
+
     def __init__(self, n):
         self.n = n
         if n not in [1, 2]:
             raise ValueError("Can only support unigram and bigram.")
+        self.unique_words_dictionary = {}
+        self.probabilities_dictionary = {}
+        
     
     def split_words(self, texts):
         regex = r"\w+|[^\w\s]"
         splitted_words = re.findall(regex, texts)
+        print(splitted_words)
         return splitted_words
-   
-
     
-    def calculate_probabilities(self, words):
-        
-
-        if self.n == 1:
-            # Unigram model
-            total_word_count = len(words)  # Total number of words
-            self.probabilities_dictionary = {}
-
-            for word in self.unique_words_dictionary:
-                word_count = self.unique_words_dictionary[word]
-                probability = word_count/total_word_count
-                self.probabilities_dictionary[word] = probability
-
-                self.unseen_word = 1/(total_word_count*10)
-                if word in self.probabilities_dictionary[word]:
-                    return self.probabilities_dictionary[word]
-                else:
-                    return self.unseen_word
-           
-            
-        elif self.n == 2:
-            # Bigram model
-            self.probabilities_dictionary = {}
-
-            for word, next_words in self.unique_words_dictionary.items():
-                total_count = sum(next_words.values()) 
-
-                self.probabilities_dictionary[word] = {}
-                for next_word, count in next_words.items():
-                    self.probabilities_dictionary[word][next_word] = count / total_count
-
-
     def train(self, data):
-        words = self.split_words(data)
-        self.unique_words_dictionary = {}
+        data = self.split_words(data)
+        word_counts = Counter(data)
         
         if self.n == 1:
-            for word in words:
-                if word not in self.unique_words_dictionary:
-                    self.unique_words_dictionary[word] = 1  # Initialize count
-                else:
-                    self.unique_words_dictionary[word] += 1  
-        
+            self.unique_words_dictionary = dict(word_counts)
+            total_tokens = len(data)
+            for word, count in word_counts.items():
+                self.probabilities_dictionary[word] = count/total_tokens
         elif self.n == 2:
-            for i in range(len(words) - 1):
-                current_words = words[i]
-                next_word = words[i+1]
-                if current_words not in self.unique_words_dictionary:
-                    self.unique_words_dictionary[current_words] = {} # nestin it
-                if next_word not in self.unique_words_dictionary[current_words]:
-                    self.unique_words_dictionary[current_words][next_word] = 1
-                else:
-                    self.unique_words_dictionary[current_words][next_word] += 1
-        print (words)
-        self.calculate_probabilities(words)
-
+            bigrams = [(data[i], data[i + 1]) for i in range(len(data) - 1)]
+            print("Bigrams created:", bigrams) 
+            bigram_counts = Counter(bigrams)
+            self.unique_words_dictionary = dict(bigram_counts)
+            print("Unique Bigrams:", self.unique_words_dictionary)  
+            total_bigrams = len(bigrams)
+            for bigram, count in bigram_counts.items():
+                self.probabilities_dictionary[bigram] = count / total_bigrams
+            
+            
     def predict_next_word(self, input: tuple, deterministic: bool = False):
         if self.n == 1:
-            current_word = input[0]
-            
-            if current_word not in self.probabilities_dictionary:
-                print("Error: Word not found in vocabulary.")
-                return None
-            
-            
-            probabilities = self.probabilities_dictionary[current_word]
-            
-            if deterministic:
-                return max(self.probabilities_dictionary, key=self.probabilities_dictionary.get)
-            else:
-                keys_list = list(self.probabilities_dictionary.keys())
-                weights = list(self.probabilities_dictionary.values())
-                return random.choices(keys_list, weights=weights)[0]
-        
-        elif self.n == 2:
-            word1, word2 = input
-            
+            word1 = input[0]
             if word1 not in self.probabilities_dictionary:
-                print("Error: Word not found in vocabulary.")
-                return None
-            
-            if word2 not in self.probabilities_dictionary[word1]:
-                print("Error: Word pair not found in vocabulary.")
-                return None
-            
-            probabilities = self.probabilities_dictionary[word1][word2]
-            
+                print("Error: The word does not exist in the vocabulary.")
+                return
+
+            words = list(self.probabilities_dictionary.keys())
+            probabilities = list(self.probabilities_dictionary.values())
             if deterministic:
-                return max(probabilities, key=probabilities.get)
+                max_prob_index = probabilities.index(max(probabilities))
+                next_word = words[max_prob_index]
+                return next_word
             else:
-                keys_list = list(probabilities.keys())
-                weights = list(probabilities.values())
-                return random.choices(keys_list, weights=weights)[0]
+                next_word = random.choices(words, weights=probabilities, k=1)
+                return next_word[0]
+
+        elif self.n == 2:
+            words = []
+            probabilities = []
+
+            for bigram, prob in self.probabilities_dictionary.items():
+                #print("Checking bigram:", bigram) 
+                if bigram[0] == input[1]:  # Check if the first word of the bigram matches the second word of the input
+                    words.append(bigram[1])
+                    probabilities.append(prob)
+            # Check if words and probabilities are empty
+            if not words or not probabilities:
+                print("Error: No valid next words found for the given bigram.")
+                return None
+
+            if deterministic:
+                max_prob_index = probabilities.index(max(probabilities))
+                next_word = words[max_prob_index]
+                return next_word
+            else:
+                next_word = random.choices(words, weights=probabilities, k=1)
+                return next_word[0]
 
 
 def train_ngram(args):
@@ -127,40 +96,44 @@ def train_ngram(args):
             print(f"Error: Unable to read the file at {args.data}. Please check if the file exists and you have permission to read it.")
 
 def predict_ngram(args):
-    # Load the saved model
-    try:
+    
+        # Load the model from the specified path
         with open(args.load, 'rb') as f:
             model = pickle.load(f)
-    except FileNotFoundError:
-        print(f"Error: Could not load model from {args.load}. File not found.")
-        return
 
-    # Split the input words (assuming space-separated input for bigrams)
-    input_words = args.word.split()
-    
-    if model.n == 1 and len(input_words) != 1:
-        print("Error: For a unigram model, you should provide exactly one word.")
-        return
-    elif model.n == 2 and len(input_words) != 2:
-        print("Error: For a bigram model, you should provide exactly two words.")
-        return
+        n = model.n  # The 'n' in n-gram
 
-    # Perform predictions
-    predicted_words = []
-    for _ in range(args.nwords):
-        next_word = model.predict_next_word(tuple(input_words), deterministic=args.d)
-        if next_word is None:
-            break
-        predicted_words.append(next_word)
-        
-        # Update the input for the next iteration in case of bigrams
-        if model.n == 2:
-            input_words = [input_words[-1], next_word]
+        # Prepare input words
+        if isinstance(args.word, str):
+            # If args.word is a single string, split it into words
+            input_words = args.word.strip().lower().split()
         else:
-            input_words = [next_word]
+            # Assume args.word is a list or tuple of words
+            input_words = [word.lower() for word in args.word]
+
+        if len(input_words) != n:
+            print(f"Error: For {n}-gram, provide exactly {n} word(s).")
+            return
+
+        input_words = tuple(input_words)  # Convert to tuple
+
+        predictions = []
+        for _ in range(args.nwords):
+            next_word = model.predict_next_word(input_words, deterministic=args.d)
+            if next_word:
+                predictions.append(next_word)
+                # Update input for the next prediction (shift window)
+                input_words = (*input_words[1:], next_word) if n > 1 else (next_word,)
+            else:
+                break  # No next word predicted
+
+        print("Predicted words:", ' '.join(predictions))
+
     
-    # Output the predicted words
-    print(" ".join(predicted_words))
+
+   
+    
+    
 
 
 
@@ -168,14 +141,16 @@ def save_model(model: Union[Ngram], path: str) -> None:
     """Save the model to a file using pickle."""
     with open(path, 'wb') as f:
         pickle.dump(model, f)
+
+
 def main():
     parser = argparse.ArgumentParser(description="NLP tools for N-gram models and BPE tokenization")
-    parser.add_argument("activity", choices=["train_ngram", "predict_ngram", "train_bpe", "tokenize"],
+    parser.add_argument("activity", choices=["train_ngram", "predict_ngram", "train_bpe", "tokenize", "predict_bigram"],
                         help="Select which activity to perform")
     parser.add_argument("--data", help="Path to the training data corpus")
     parser.add_argument("--save", help="Path to save the trained model")
     parser.add_argument("--load", help="Path to load the trained model")
-    parser.add_argument("--word", help="Initial word(s) for prediction")
+    parser.add_argument("--word", nargs='+', help="Initial word(s) for prediction")
     parser.add_argument("--nwords", type=int, help="Number of words to predict")
     parser.add_argument("--text", help="Text to tokenize")
     parser.add_argument("--n", type=int, choices=[1, 2], help="Order of the N-gram model")
@@ -191,8 +166,7 @@ def main():
         if not args.load or not args.word:
             parser.error("predict_ngram requires --load and --word arguments")
         predict_ngram(args)
+    
         
 if __name__ == "__main__":
-
-   
     main()
