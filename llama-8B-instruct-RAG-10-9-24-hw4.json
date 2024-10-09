@@ -1,0 +1,2502 @@
+[
+  {
+    "custom_id": "1",
+    "explanation": "The student's response correctly identifies France as the country where Normandy is located, which matches the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "2",
+    "explanation": "The student's response provides specific details about the Normans in Normandy, including the early 10th century and the formation of the Duchy of Normandy in 911. However, the possible correct answers are more general, stating only 'in the 10th and 11th centuries' or '10th and 11th centuries'. While the student's answer is factually correct, it does not match the phrasing of the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "3",
+    "explanation": "The student's response includes all the locations mentioned in the possible correct answers (Denmark, Iceland, and Norway), thus it is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "4",
+    "explanation": "The student's response correctly identifies Rollo as the Norse leader who swore fealty to King Charles III of West Francia and established the Duchy of Normandy in 911, which matches the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "5",
+    "explanation": "The student's response accurately states that the Normans first gained their separate identity in the first half of the 10th century, which matches one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "6",
+    "explanation": "The student correctly identified Duke William II of Normandy as the leader of the invading Normans, but did not use the term 'William the Conqueror,' which is the specific name provided in the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "7",
+    "explanation": "The student's response discusses Duke William II of Normandy, who is not listed as a possible correct answer. The only possible correct answer provided is Richard I, which does not match the student's response.",
+    "score": false
+  },
+  {
+    "custom_id": "8",
+    "explanation": "The student's response correctly identifies the Normans' adoption of the Catholic faith and mentions 'Catholic orthodoxy', which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "9",
+    "explanation": "The student's response correctly identifies 'Norseman' and 'Viking' as meanings of the word 'Norman', which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "10",
+    "explanation": "The student's response correctly identifies the 9th century as the time when the Latin version of the word 'Norman' was first recorded, which matches the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "11",
+    "explanation": "The student's response provides accurate historical information about the founding of the Duchy of Normandy in 911, which aligns with the possible correct answer of '911'.",
+    "score": true
+  },
+  {
+    "custom_id": "12",
+    "explanation": "The student's response includes 'King Charles III', which is part of the possible correct answer. However, the addition of 'of West Francia' makes it incorrect as it specifies a title that is not included in the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "13",
+    "explanation": "The student's response mentions the Rhine, which is not one of the possible correct answers provided. The correct answers are 'Epte' and 'Seine'. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "14",
+    "explanation": "The student's response includes 'Rollo', which is the only possible correct answer provided. Therefore, the response is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "15",
+    "explanation": "The student's response correctly identifies Catholicism as the Norman religion, which aligns with the possible correct answer provided. However, the response includes additional context about the assimilation and cultural blending, which, while informative, is not necessary to answer the question directly. The key point of identifying Catholicism is accurate.",
+    "score": true
+  },
+  {
+    "custom_id": "16",
+    "explanation": "The student's response provides detailed information about the location of the Normans in Normandy, which is in northern France. However, it does not directly match the possible correct answers, which are simply 'north' or 'the north'. Therefore, the response is not considered correct based on the provided options.",
+    "score": false
+  },
+  {
+    "custom_id": "17",
+    "explanation": "The student's response includes 'fighting horsemen', which is one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "18",
+    "explanation": "The student's response correctly identifies 'the Seljuk Turks' as one of the main enemies of the Normans in Italy, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "19",
+    "explanation": "The student's response includes the phrase 'in the 1050s', which matches one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "20",
+    "explanation": "The student's response includes the correct time period, '1060s', which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "21",
+    "explanation": "The student's response discusses events related to the British and New France, but it does not address the name 'Alexius Komnenos,' which is the only possible correct answer provided. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "22",
+    "explanation": "The student's response incorrectly identifies the subject as Bayeux Castle and the Bayeux Tapestry, which do not match the possible correct answer 'Afranji'. Therefore, the answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "23",
+    "explanation": "The student's response correctly identifies Oursel as the leader when the Franks entered the Euphrates valley, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "24",
+    "explanation": "The student's response mentions the Turkish forces, which is included in the possible correct answers. However, the context of teaming up with the Normans and the specific details about the Armenians' vassal-states are not part of the provided correct answers, making the overall response incorrect despite mentioning a correct term.",
+    "score": false
+  },
+  {
+    "custom_id": "25",
+    "explanation": "The student's response correctly states that the Raoulii family originated from an Italo-Norman named Raoul, which aligns with the possible correct answers provided. Therefore, the answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "26",
+    "explanation": "The student's response correctly identifies Robert Guiscard as the Count of Apulia, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "27",
+    "explanation": "The student's response states that Dyrrachium fell to the Normans in 1107, which is incorrect. The possible correct answers indicate that the correct date is 1082 or February 1082. Therefore, the student's answer does not match the correct information.",
+    "score": false
+  },
+  {
+    "custom_id": "28",
+    "explanation": "The student's response does not match any of the possible correct answers provided, which only includes the number '30,000'. Therefore, the answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "29",
+    "explanation": "The student's response correctly identifies the city where the peace treaty was signed, which is Deabolis, matching the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "30",
+    "explanation": "The student's response does not address the question correctly, as it does not mention Bohemond, which is the only possible correct answer provided. Instead, the student discusses Robert the Bruce and his son, which is irrelevant to the question.",
+    "score": false
+  },
+  {
+    "custom_id": "31",
+    "explanation": "The student's response mentions the Vistula River, which is not one of the possible correct answers provided. The correct answers are 'Deabolis' and 'the river Deabolis'. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "32",
+    "explanation": "The student's response refers to an event in 1107, while the possible correct answers pertain to the year 1185. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "33",
+    "explanation": "The student's response does not address the question correctly, as it does not relate to the possible correct answer 'Dyrrachium'. Instead, the student discusses Fort Beaus\u00e9jour and Louisbourg, which are not relevant to the provided correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "34",
+    "explanation": "The student's response correctly identifies Dyrrachium's location on the Adriatic coast, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "35",
+    "explanation": "The student's response includes the correct name 'King Ethelred II', which matches one of the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "36",
+    "explanation": "The student's response correctly identifies Duke Richard II, but it incorrectly states that he is Emma's brother. The possible correct answer only includes 'Duke Richard II', which does not confirm the familial relationship mentioned by the student.",
+    "score": false
+  },
+  {
+    "custom_id": "37",
+    "explanation": "The student's response correctly mentions 'Normandy', which is included in the possible correct answers. However, the additional context provided about Ethelred and Sweyn Forkbeard is not necessary for the correctness of the answer.",
+    "score": true
+  },
+  {
+    "custom_id": "38",
+    "explanation": "The student's response discusses Earl Godwin of Wessex and his exile, which is not related to the possible correct answer 'Sweyn Forkbeard'. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "39",
+    "explanation": "The student's response incorrectly states that Harthacnut was Edward the Confessor's half-brother. Harthacnut was actually the half-brother of Edward's father, \u00c6thelred the Unready. Therefore, the answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "40",
+    "explanation": "The student's response includes the correct year '1041', which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "41",
+    "explanation": "The student's response correctly identifies Robert of Jumi\u00e8ges as the archbishop of Canterbury, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "42",
+    "explanation": "The student's response includes the phrase 'at the Battle of Hastings', which matches one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "43",
+    "explanation": "The student correctly identified Duke William II as the person responsible for King Harold II's death at the Battle of Hastings, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "44",
+    "explanation": "The student's response correctly identifies the year of the Battle of Hastings as 1066, which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "45",
+    "explanation": "The student's response incorrectly identifies the ruling class before the Normans as the old French aristocracy, while the correct answer is 'Anglo-Saxons'.",
+    "score": false
+  },
+  {
+    "custom_id": "46",
+    "explanation": "The student's response discusses the evolution of the Anglo-Norman language and its influences, but it does not directly answer the question with 'Modern English', which is the only possible correct answer provided.",
+    "score": false
+  },
+  {
+    "custom_id": "47",
+    "explanation": "The student correctly identified the year of the Norman invasion of Bannow Bay as 1169, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "48",
+    "explanation": "The student's response provides a specific historical fact about the Normans invading Ireland, but the possible correct answer only includes 'Ireland', which does not directly validate the student's statement.",
+    "score": false
+  },
+  {
+    "custom_id": "49",
+    "explanation": "The student's response provides detailed information about the Normans in Ireland, including their settlement patterns and cultural integration. However, the possible correct answer is simply 'Irish', which does not encompass the full context provided by the student. Therefore, the student's answer is not correct based on the provided options.",
+    "score": false
+  },
+  {
+    "custom_id": "50",
+    "explanation": "The student's response includes the full name 'Edgar Atheling', which is one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "51",
+    "explanation": "The student's response correctly identifies Margaret's husband as King Malcolm III of Scotland, which matches one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "52",
+    "explanation": "The student correctly stated the year of William's invasion of Scotland, which is 1072, matching the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "53",
+    "explanation": "The student's response mentions Governor Vaudreuil, which is not among the possible correct answers. The only correct answer provided is 'Duncan', making the student's answer incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "54",
+    "explanation": "The student's response does not address the question related to Sybilla or Sybilla of Normandy, and instead discusses Kublai Khan and his marriages, which is irrelevant to the possible correct answers provided.",
+    "score": false
+  },
+  {
+    "custom_id": "55",
+    "explanation": "The student's response correctly identifies the culture associated with the 'Davidian Revolution' as the Normans, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "56",
+    "explanation": "The student's response includes the term 'Hereford', which is part of the possible correct answer. However, the response does not directly match the expected answer format, which is simply 'Hereford'. Therefore, while the content is related, it is not a direct match.",
+    "score": false
+  },
+  {
+    "custom_id": "57",
+    "explanation": "The student's response does not address the question correctly as it does not relate to the possible correct answer 'the Welsh'. Instead, it discusses Ralph and Lord Loudoun in the context of a war with the French and Native American allies, which is irrelevant to the provided correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "58",
+    "explanation": "The student's response incorrectly states that Ralph Earl was made earl of Hereford by Edward the Confessor. The possible correct answer only mentions Edward the Confessor without confirming the specific claim about Ralph Earl.",
+    "score": false
+  },
+  {
+    "custom_id": "59",
+    "explanation": "The student's response identifies England as the country under the control of Norman barons, but the only possible correct answer provided is Wales. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "60",
+    "explanation": "The student's response mentions Roger de Tosny failing to accomplish his goals in 1018, which matches the year provided in the possible correct answers. Therefore, the response is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "61",
+    "explanation": "The student's response correctly identifies William of Montreuil, but it incorrectly states that he was in charge of the papal army in the War of Barbastro, which is not supported by the possible correct answers provided.",
+    "score": false
+  },
+  {
+    "custom_id": "62",
+    "explanation": "The student correctly stated that the Siege of Antioch took place in 1097, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "63",
+    "explanation": "The student's response provides additional information about Tancred's relationship to Bohemond of Taranto, but it does not directly answer the question, which only requires the name 'Tancred'. Therefore, the response is not correct.",
+    "score": false
+  },
+  {
+    "custom_id": "64",
+    "explanation": "The student's response discusses Tancred's role in the conquest of Jerusalem, which is relevant to the question. However, the answer does not directly address the question '64' as it does not provide a specific answer or context related to that number. Therefore, it does not meet the criteria of the possible correct answers provided.",
+    "score": false
+  },
+  {
+    "custom_id": "65",
+    "explanation": "The student's response includes the correct duration of Western Europe's control over Cyprus, which is 380 years. Therefore, the answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "66",
+    "explanation": "The student's response correctly identifies that a storm was the reason Richard's plans were ruined, which aligns with the possible correct answer 'a storm'.",
+    "score": true
+  },
+  {
+    "custom_id": "67",
+    "explanation": "The student's response correctly identifies Berengaria as Richard's fianc\u00e9e, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "68",
+    "explanation": "The student mentioned the year 1191, which is included in the possible correct answers. However, the specific detail about the storm dispersing Richard's fleet is not directly validated by the possible correct answers, but since the year is correct, the answer is considered acceptable.",
+    "score": true
+  },
+  {
+    "custom_id": "69",
+    "explanation": "The student's response provides historical context about Richard the Lion-hearted's conquest of Cyprus, mentioning Isaac Komnenos, which aligns with the possible correct answers. Therefore, the student's answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "70",
+    "explanation": "The student's response mentions Tanaghrisson, a Mingo leader, which is not one of the possible correct answers provided. The only correct answer listed is Conrad of Montferrat, which the student did not mention.",
+    "score": false
+  },
+  {
+    "custom_id": "71",
+    "explanation": "The student's response does not mention 'silver' and instead discusses iron and phlogiston, which are not relevant to the question based on the possible correct answers provided.",
+    "score": false
+  },
+  {
+    "custom_id": "72",
+    "explanation": "The student's response correctly identifies Guy de Lusignan, who is mentioned in the possible correct answers. However, the context of the statement regarding Richard's troops is not explicitly confirmed by the provided answers, but the key name is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "73",
+    "explanation": "The student's response correctly identifies that the Canarian Islands are located off the coast of Africa, which aligns with the possible correct answer 'Africa'.",
+    "score": true
+  },
+  {
+    "custom_id": "74",
+    "explanation": "The student's response correctly identifies Bethencourt as the individual associated with the title of King of the Canary Islands, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "75",
+    "explanation": "The student's response does not match any of the possible correct answers provided. The answer given by the student discusses a financial transaction related to BSkyB, while the possible correct answer is a name, Enrique P\u00e9rez de Guzm\u00e1n, which is unrelated to the student's response.",
+    "score": false
+  },
+  {
+    "custom_id": "76",
+    "explanation": "The student's response does not match any of the possible correct answers provided. The answer discusses the sale of Premier League rights by BSkyB and the European Commission's involvement, which is unrelated to 'Maciot de Bethencourt'.",
+    "score": false
+  },
+  {
+    "custom_id": "77",
+    "explanation": "The student's response correctly identifies Jersey and Guernsey as being located in the Channel Islands, which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "78",
+    "explanation": "The student's response correctly identifies that Norman customary law has two customaries, which aligns with the possible correct answer of 'two'.",
+    "score": true
+  },
+  {
+    "custom_id": "79",
+    "explanation": "The student's response provides a detailed description of Norman architecture, which is indeed a Romanesque style. However, the answer does not explicitly mention 'Romanesque' as part of the response, which is the only possible correct answer provided. Therefore, the student's answer is not considered correct based on the criteria given.",
+    "score": false
+  },
+  {
+    "custom_id": "80",
+    "explanation": "The student's response includes the term 'rounded arches', which aligns with the possible correct answer 'rounded'. Therefore, the student's answer is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "81",
+    "explanation": "The student's response correctly identifies 'Early Gothic' as the architecture type that came after Norman architecture in England, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "82",
+    "explanation": "The student's response correctly identifies the Anglo-Saxon style as prevalent before Norman architecture in England, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "83",
+    "explanation": "The student's response correctly identifies the Kingdom of Sicily as the place associated with the Norman-Arab architectural style, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "84",
+    "explanation": "The student's response discusses the Protestant Reformation and its beginnings in France, which is not relevant to the possible correct answers that refer to the 11th century. The student's answer does not match any of the provided correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "85",
+    "explanation": "The student's response does not address the question or relate to the provided possible correct answers, which mention 'the dukes' or 'dukes'. Therefore, the answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "86",
+    "explanation": "The student's response provides specific dates for the French Wars of Religion, which is not included in the possible correct answers that only refer to the 16th century in a general sense. Therefore, the student's answer is not correct based on the provided options.",
+    "score": false
+  },
+  {
+    "custom_id": "87",
+    "explanation": "The student's response correctly identifies the Bayeux Tapestry as an example of embroidery, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "88",
+    "explanation": "The student's response correctly identifies the Bayeux Tapestry as a significant piece of Norman art, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "89",
+    "explanation": "The student's response correctly identifies Odo as the individual who commissioned the Bayeux Tapestry, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "90",
+    "explanation": "The student's response correctly identifies 'mosaics' as the most important type of Norman art preserved in churches, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "91",
+    "explanation": "The student's response correctly identifies the 11th century as a significant period for classical music developments in Normandy, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "92",
+    "explanation": "The student's response correctly identifies the two abbots at F\u00e9camp Abbey as William of Volpiano and John of Ravenna, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "93",
+    "explanation": "The student's response correctly identifies 'southern Italy' as the location where the monks fled, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "94",
+    "explanation": "The student's response correctly identifies the monastery established by the Saint-Evroul monks in Italy as Sant'Eufemia, which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "95",
+    "explanation": "The student's response correctly identifies Robert Guiscard, which is the only answer provided in the possible correct answers. However, the additional details about the monks and the monastery, while informative, are not necessary to validate the correctness of the answer.",
+    "score": true
+  },
+  {
+    "custom_id": "96",
+    "explanation": "The student's response mentions 'singing,' which is included in the possible correct answers. Therefore, the response is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "97",
+    "explanation": "The student's response accurately describes computational complexity theory, which is the correct answer to the question. Although the response is more detailed than the possible correct answer, it still identifies the correct concept.",
+    "score": true
+  },
+  {
+    "custom_id": "98",
+    "explanation": "The student's response correctly identifies the classification of computational problems based on their inherent difficulty, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "99",
+    "explanation": "The student's response provides a detailed explanation of what a computational problem is, but it does not directly answer the question with one of the possible correct answers. The correct answer should be a simple phrase like 'A computational problem', which the student did not provide.",
+    "score": false
+  },
+  {
+    "custom_id": "100",
+    "explanation": "The student's response provides a detailed explanation of computational complexity, but it does not directly match the phrasing of the possible correct answers. The possible correct answers focus on the requirement of significant resources for a solution, while the student's answer elaborates on the concept of computational complexity without explicitly stating that its solution requires significant resources. Therefore, the response is not considered correct.",
+    "score": false
+  },
+  {
+    "custom_id": "101",
+    "explanation": "The student's response discusses computational complexity theory and its components, but it does not specifically mention 'mathematical models of computation' as the method used to assess resources, which is the only possible correct answer provided.",
+    "score": false
+  },
+  {
+    "custom_id": "102",
+    "explanation": "The student's response correctly identifies 'time' and 'space' as resources used to gauge complexity, which aligns with the possible correct answer of 'time and storage'. However, the term 'storage' is not explicitly mentioned in the student's response, as they used 'memory' instead. This difference in terminology means the student's answer does not fully match the provided correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "103",
+    "explanation": "The student's response accurately states that the unit measured to determine circuit complexity is the number of gates in a circuit, which matches one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "104",
+    "explanation": "The student's response correctly addresses the importance of defining the complexity of problems in computing, particularly in determining the practical limits on what computers can and cannot do. This aligns with the provided possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "105",
+    "explanation": "The student's response correctly identifies 'analysis of algorithms and computability theory' as two fields that closely mirror computational complexity theory, which matches the provided possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "106",
+    "explanation": "The student's response correctly identifies the field of computer science as 'Analysis of Algorithms', which matches the possible correct answer 'analysis of algorithms' when considering case insensitivity and phrasing.",
+    "score": true
+  },
+  {
+    "custom_id": "107",
+    "explanation": "The student's response correctly identifies the field of study as 'Computational Complexity Theory', which matches the provided possible correct answer 'computational complexity theory', despite the difference in capitalization.",
+    "score": true
+  },
+  {
+    "custom_id": "108",
+    "explanation": "The student's response discusses Computational Complexity Theory, which is not the same as computability theory. The possible correct answer specifically mentions 'computability theory', which focuses on what problems can be solved by algorithms, while the student's answer describes a different aspect of theoretical computer science. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "109",
+    "explanation": "The student's response correctly identifies the input string of a computational problem as a 'problem instance', which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "110",
+    "explanation": "The student's response correctly identifies the term 'problem' as the baseline abstract question in computational complexity theory, which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "111",
+    "explanation": "The student's response correctly identifies that a problem instance is characterized as concrete, which aligns with the provided possible correct answers. The student distinguishes between the concrete nature of an instance and the abstract nature of the problem itself.",
+    "score": true
+  },
+  {
+    "custom_id": "112",
+    "explanation": "The student's response correctly identifies 'instance' as another name for a measure of input associated with a problem, which matches one of the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "113",
+    "explanation": "The student's response correctly identifies the output to any given input in a problem instance as 'the solution', which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "114",
+    "explanation": "The student's response incorrectly describes the traveling salesman problem by specifying a route between the 15 largest cities in Germany and a distance of at most 2000 kilometers, which is not a standard definition of the problem. The only relevant detail from the possible correct answers is '2000', which is mentioned in the student's response but does not accurately reflect the essence of the traveling salesman problem.",
+    "score": false
+  },
+  {
+    "custom_id": "115",
+    "explanation": "The student's response closely matches one of the possible correct answers, specifically 'a round trip through all sites in Milan whose total length is at most 10 km'. Therefore, the student's answer is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "116",
+    "explanation": "The student's response discusses computational complexity theory and its focus on computational problems, which aligns with the possible correct answer provided. Therefore, the response is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "117",
+    "explanation": "The student's response elaborates on the concept of a string as a representation of a problem instance, but it does not directly match the provided possible correct answers, which are simply 'a problem instance' or 'problem instance'. Therefore, the response is considered incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "118",
+    "explanation": "The student's response correctly identifies the binary alphabet, which consists of the set {0,1}, and uses the term 'binary alphabet' that is included in the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "119",
+    "explanation": "The student's response does not match the possible correct answer 'bitstrings'. While the student provided alternative terms, they are not included in the provided correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "120",
+    "explanation": "The student's response mentions binary notation, which is included in the possible correct answers. However, the response does not directly address the question '120'. Therefore, while the mention of binary notation is relevant, it does not fully answer the question.",
+    "score": false
+  },
+  {
+    "custom_id": "121",
+    "explanation": "The student's response mentions 'adjacency matrices', which is included in the possible correct answers. Therefore, the response is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "122",
+    "explanation": "The student's response correctly identifies decision problems as a central topic in computational complexity theory, which aligns with the possible correct answers provided. However, the response is more elaborate than simply stating 'Decision problems' or 'Decision', but it does encompass the essence of the topic.",
+    "score": true
+  },
+  {
+    "custom_id": "123",
+    "explanation": "The student's response includes 'yes' and 'no' as separate answers, while the possible correct answer is 'yes or no' as a combined phrase. Therefore, the student's response does not match the expected format.",
+    "score": false
+  },
+  {
+    "custom_id": "124",
+    "explanation": "The student's response correctly identifies the two integer responses to a decision problem as 1 and 0, which correspond to 'yes' and 'no'. This aligns with the possible correct answer of '1 or 0'.",
+    "score": true
+  },
+  {
+    "custom_id": "125",
+    "explanation": "The student's response does not directly answer the question '125' and instead provides an explanation about decision problems. The possible correct answer is 'yes', which is not addressed in the student's response.",
+    "score": false
+  },
+  {
+    "custom_id": "126",
+    "explanation": "The student's response correctly describes that when an algorithm accepts an input string, it returns 'yes', indicating that the input is a member of the formal language. This aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "127",
+    "explanation": "The student's response mentions a connected graph as an example of input in a decision problem, but the possible correct answers specify 'arbitrary graph' or 'arbitrary'. The student's answer does not match the provided correct answers, making it incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "128",
+    "explanation": "The student's response discusses connected graphs in relation to a formal language but does not match any of the provided possible correct answers directly. The phrasing is different, and it does not explicitly state 'The formal language' or any of the exact phrases listed.",
+    "score": false
+  },
+  {
+    "custom_id": "129",
+    "explanation": "The student's response correctly identifies the need to represent graphs as binary strings in order to define the formal language associated with the decision problem of graph connectivity. This aligns with the provided correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "130",
+    "explanation": "The student's response describes a function problem in terms of complexity and examples, but it does not align with the provided correct answer, which is simply 'a computational problem.' The student did not directly identify a function problem as a computational problem, leading to an incorrect response.",
+    "score": false
+  },
+  {
+    "custom_id": "131",
+    "explanation": "The student's response correctly identifies that a function problem has a single output for each input, which aligns with the possible correct answers of 'a single output' and 'single'. However, the response is more elaborate than necessary and includes additional information that is not required to answer the question directly.",
+    "score": true
+  },
+  {
+    "custom_id": "132",
+    "explanation": "The student's response correctly identifies the traveling salesman problem as a 'function problem', which matches one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "133",
+    "explanation": "The student's response correctly identifies the integer factorization problem as an example of a function problem, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "134",
+    "explanation": "The student's response discusses the complexity of functional problems and mentions that their outputs can be complex, which aligns with the provided possible correct answer 'complex'. Therefore, the student's answer is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "135",
+    "explanation": "The student's response discusses how function problems can be restated as decision problems, which aligns with the possible correct answers provided. However, the response is more elaborate than simply stating 'as decision problems' or 'decision problems'. While it is relevant, it does not directly match the concise answers listed.",
+    "score": false
+  },
+  {
+    "custom_id": "136",
+    "explanation": "The student's response correctly identifies the relation as 'a \u00d7 b = c' and describes the set of triples (a, b, c) where this relation holds. This aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "137",
+    "explanation": "The student's response discusses the measurement of time required to solve a computational problem, which aligns with the possible correct answers. However, it does not explicitly mention 'time' or 'how much time the best algorithm requires to solve the problem' as stated in the possible correct answers. Therefore, while the response is relevant, it does not directly match the expected answers.",
+    "score": false
+  },
+  {
+    "custom_id": "138",
+    "explanation": "The student's response mentions 'the size of the input', which is conceptually similar to 'the size of the instance' in the possible correct answers. However, it does not match exactly with the provided answers.",
+    "score": false
+  },
+  {
+    "custom_id": "139",
+    "explanation": "The student's response discusses the time complexity of algorithms and how it relates to the size of the input, which aligns with the possible correct answers that mention 'a function of the size of the instance'. However, the student did not explicitly use the exact phrasing of the possible correct answers. Despite this, the essence of the student's answer captures the concept of time complexity as a function of input size, which is relevant to the provided correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "140",
+    "explanation": "The student's response correctly identifies that the size of the input is typically measured in bits, which aligns with the possible correct answer 'bits'.",
+    "score": true
+  },
+  {
+    "custom_id": "141",
+    "explanation": "The student's response discusses the relationship between algorithms and input size, which aligns with the concepts of computational complexity theory. However, it does not directly mention 'an increase in the input size' or 'input size' as specified in the possible correct answers. Therefore, while the response is relevant, it does not fully match the provided correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "142",
+    "explanation": "The student's response accurately describes the Cobham\u2013Edmonds thesis, but it does not match any of the provided possible correct answers, which are variations of the name 'Cobham'. Therefore, the student's answer is incorrect based on the criteria given.",
+    "score": false
+  },
+  {
+    "custom_id": "143",
+    "explanation": "The student's response provides a detailed explanation of time complexity and the role of input size, but it does not directly address the specific phrase 'the time taken' as mentioned in the possible correct answers. Therefore, the response is not aligned with the expected answer.",
+    "score": false
+  },
+  {
+    "custom_id": "144",
+    "explanation": "The student correctly identifies the concept of worst-case time complexity, but their response is overly detailed and includes terms that are not part of the possible correct answers. The key phrases 'the worst-case time complexity' and 'worst-case time complexity' are present in their explanation, but the additional context about Big O notation and T(n) is unnecessary for the answer to be considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "145",
+    "explanation": "The student's response does not match the possible correct answers provided. The answer should have referenced 'T(n)', which is not addressed in the student's explanation about time complexity and quicksort.",
+    "score": false
+  },
+  {
+    "custom_id": "146",
+    "explanation": "The student's response correctly identifies that an algorithm with a time complexity expressed as a polynomial in n is referred to as a polynomial time algorithm, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "147",
+    "explanation": "The student's response correctly identifies the term 'Turing machine', which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "148",
+    "explanation": "The student's response is correct in the context that a Turing machine can solve problems that can be solved by an algorithm. However, the possible correct answer is simply 'an algorithm', which does not fully encompass the student's explanation. Therefore, while the concept is correct, it does not match the exact phrasing of the possible correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "149",
+    "explanation": "The student's response correctly identifies the deterministic Turing machine as a model in complexity theory, but it does not match the exact phrasing of the possible correct answers, which are 'the Turing machine' or 'Turing machine'. Therefore, the response is not considered correct.",
+    "score": false
+  },
+  {
+    "custom_id": "150",
+    "explanation": "The student's response correctly mentions 'symbols', which is included in the possible correct answers. Therefore, the response is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "151",
+    "explanation": "The student's response correctly identifies the most basic type of Turing machine as a Deterministic Turing Machine, which aligns with the provided possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "152",
+    "explanation": "The student's response correctly identifies that a deterministic Turing machine operates based on a fixed set of rules to determine its future actions. This aligns with the possible correct answers provided, specifically mentioning 'a fixed set of rules to determine its future actions'.",
+    "score": true
+  },
+  {
+    "custom_id": "153",
+    "explanation": "The student's response provides a detailed explanation of a probabilistic Turing machine, which aligns with the possible correct answers. However, it does not directly match any of the provided answers verbatim, which are more concise. Therefore, while the explanation is relevant, it does not strictly meet the criteria for correctness based on the provided options.",
+    "score": false
+  },
+  {
+    "custom_id": "154",
+    "explanation": "The student's response correctly identifies a non-deterministic Turing machine as the type of Turing machine capable of multiple actions and branching into various computational paths. This aligns with the provided possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "155",
+    "explanation": "The student's response correctly identifies that algorithms utilizing random bits are called randomized algorithms, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "156",
+    "explanation": "The student's response discusses Turing machines and their role in complexity theory, but it does not directly mention 'complexity classes,' which is the specific term provided in the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "157",
+    "explanation": "The student provided a detailed explanation of time complexity and space complexity as factors affecting the power of a Turing machine. However, the possible correct answers only mentioned 'time or space' without elaboration. Since the student's response included additional details that were not part of the provided correct answers, it does not align with the expected response.",
+    "score": false
+  },
+  {
+    "custom_id": "158",
+    "explanation": "The student's response includes types of Turing machines that are not listed in the possible correct answers. The correct types mentioned in the possible answers are probabilistic Turing machines and non-deterministic Turing machines, which do not match the student's examples of deterministic and single-tape Turing machines.",
+    "score": false
+  },
+  {
+    "custom_id": "159",
+    "explanation": "The student's response correctly identifies the Random Access Machine (RAM) as a model that deviates from the multi-tape Turing machine, which aligns with the provided possible correct answer 'random access machines'.",
+    "score": true
+  },
+  {
+    "custom_id": "160",
+    "explanation": "The student's response discusses the deterministic nature of machine operations, which is not the same as 'computational power.' Therefore, the answer does not match the possible correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "161",
+    "explanation": "The student's response correctly identifies 'time and memory' as the two resources, which matches one of the possible correct answers exactly.",
+    "score": true
+  },
+  {
+    "custom_id": "162",
+    "explanation": "The student's response correctly identifies that alternate machine models operate deterministically, which aligns with the possible correct answers provided. However, the response is more elaborate than necessary and does not directly match the concise answers given.",
+    "score": true
+  },
+  {
+    "custom_id": "163",
+    "explanation": "The student's response correctly identifies a Non-deterministic Turing machine, which is synonymous with the term 'non-deterministic' provided in the possible correct answers. Therefore, the answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "164",
+    "explanation": "The student's response discusses the resources required to solve computational problems, such as time and storage, but does not mention 'more unusual resources' or 'unusual resources' as specified in the possible correct answers. Therefore, the response does not align with the provided correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "165",
+    "explanation": "The student's response discusses the concept of non-deterministic Turing machines and their ability to branch out, which aligns with the possible correct answers provided. The mention of 'branching' directly relates to the key aspect of non-deterministic machines, making the response relevant and correct.",
+    "score": true
+  },
+  {
+    "custom_id": "166",
+    "explanation": "The student's response correctly identifies 'time' as a critical resource in the analysis of computational problems associated with non-deterministic Turing machines, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "167",
+    "explanation": "The student's response accurately describes the time required to output an answer on a deterministic Turing machine by mentioning the total number of state transitions or steps, which aligns with the provided possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "168",
+    "explanation": "The student's response discusses computational complexity theory in detail, but it does not address the specific term 'difficulty' as mentioned in the possible correct answers. Therefore, the response does not align with the expected answer.",
+    "score": false
+  },
+  {
+    "custom_id": "169",
+    "explanation": "The student's response is correct as it accurately states the expression DTIME(f(n)), which matches one of the possible correct answers provided, despite the additional period at the end of the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "170",
+    "explanation": "The student's response correctly identifies 'time' as the critical resource for assessing a Turing machine's problem-solving ability, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "171",
+    "explanation": "The student's response mentions 'computational complexity resources', which is a broader term that includes 'complexity resources' as mentioned in the possible correct answers. However, the specific phrase 'complexity resources' is not directly quoted or matched, making the response somewhat vague. Therefore, it does not fully align with the provided correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "172",
+    "explanation": "The student's response correctly identifies a complexity resource as a computational resource, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "173",
+    "explanation": "The student's response discusses the Blum complexity axioms and their role in defining complexity measures, which aligns with the possible correct answers provided. However, it does not directly state 'Blum complexity axioms' or 'the Blum complexity axioms' as a standalone answer, which is what was expected.",
+    "score": false
+  },
+  {
+    "custom_id": "174",
+    "explanation": "The student's response discusses communication complexity as a resource measure, which is related to the concept of complexity measures. However, it does not directly match any of the provided possible correct answers, which are more general terms. Therefore, the student's answer is not considered correct.",
+    "score": false
+  },
+  {
+    "custom_id": "175",
+    "explanation": "The student's response mentions 'decision tree complexity,' which is not included in the possible correct answers. The possible correct answers focus on general terms related to complexity measures but do not specifically validate the student's statement about decision tree complexity.",
+    "score": false
+  },
+  {
+    "custom_id": "176",
+    "explanation": "The student's response correctly identifies the three primary expressions used to represent case complexity, which are best case, worst case, and average case. Although the phrasing is slightly different, it conveys the same concepts as the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "177",
+    "explanation": "The student's answer focuses on 'decisions' and discusses probabilities related to decision-making and time complexity, which does not align with the provided correct answers of 'complexity' or 'complexity measure'. Therefore, the answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "178",
+    "explanation": "The student's response discusses Circuit Complexity, which is not included in the possible correct answers. The possible correct answers focus on 'time' and 'time complexity', which are different concepts. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "179",
+    "explanation": "The student's response discusses various factors that can affect algorithm performance, but it does not directly address the question or provide a clear answer related to 'inputs.' The possible correct answer is simply 'inputs,' which the student did not mention or elaborate on in their response.",
+    "score": false
+  },
+  {
+    "custom_id": "180",
+    "explanation": "The student's response correctly identifies quicksort as a deterministic sorting algorithm, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "181",
+    "explanation": "The student's response discusses the case complexity of sorting integers and mentions the worst-case scenario, which aligns with the possible correct answers provided. However, the specific complexity mentioned (O(n^2)) is not part of the possible correct answers, which only include 'worst-case' and 'worst'. Since the student correctly identified the worst-case scenario, the response is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "182",
+    "explanation": "The student's response correctly identifies Big O notation as a way to express worst-case complexity, but it does not match the specific answer 'O(n2)' provided in the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "183",
+    "explanation": "The student's response discusses the classification of resources in relation to the most efficient algorithm solving a given problem, which aligns with the provided possible correct answers. Therefore, the student's answer is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "184",
+    "explanation": "The student's response refers to the analysis of algorithms, which is related to the possible correct answer. However, it specifically mentions computational complexity theory, which is a subset of algorithm analysis but does not directly match the provided answer.",
+    "score": false
+  },
+  {
+    "custom_id": "185",
+    "explanation": "The student's response discusses the difficulty of proving lower bounds in time complexity, which aligns with the concept of 'lower bounds' mentioned in the possible correct answers. Therefore, the student's answer is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "186",
+    "explanation": "The student's response discusses O(n) time complexity but does not address the concepts of 'upper bound' or 'upper and lower bounds' as specified in the possible correct answers. Therefore, the answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "187",
+    "explanation": "The student's response refers to 'PSPACE', which is a complexity class related to the amount of memory required for algorithms, rather than the colloquial phrase for the continuum of algorithms with unlimited availability. The possible correct answer is 'all possible algorithms', which is not addressed in the student's response.",
+    "score": false
+  },
+  {
+    "custom_id": "188",
+    "explanation": "The student's response correctly identifies Big O notation as the expression used to convey upper or lower bounds, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "189",
+    "explanation": "The student's response correctly identifies that Big O notation hides constant factors and smaller terms, which aligns with the provided possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "190",
+    "explanation": "The student's response correctly identifies the time complexity T(n) as O(n2) and provides a valid explanation for this conclusion. The dominant term n2 is accurately noted, and the reasoning aligns with the principles of big O notation. Therefore, the answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "191",
+    "explanation": "The student's response does not address the specific details of the computational model used, which is what the possible correct answers focus on. Instead, it discusses Big O notation in a general sense without linking it to the computational model.",
+    "score": false
+  },
+  {
+    "custom_id": "192",
+    "explanation": "The student's response discusses various complexity classes and their definitions, which aligns with the possible correct answers that mention 'some complexity classes' and 'complexity classes'. Therefore, the response is relevant and correct in the context of the question.",
+    "score": true
+  },
+  {
+    "custom_id": "193",
+    "explanation": "The student's response does not address the question as it does not relate to the term 'framework' mentioned in the possible correct answers. Instead, it discusses complexity classes and their definitions, which is not aligned with the expected answer.",
+    "score": false
+  },
+  {
+    "custom_id": "194",
+    "explanation": "The student's response discusses the complexity of definitions in complexity classes, which aligns with the possible correct answers mentioning 'definitions' and 'complicated definitions'. Therefore, the response is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "195",
+    "explanation": "The student's response does not directly address the question '195' and instead provides a statement about computation time and complexity classes. The possible correct answers focus specifically on 'the chosen machine model', which is not explicitly mentioned in the student's response. Therefore, the answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "196",
+    "explanation": "The student's response mentions 'linear time', which is included in the possible correct answers. Therefore, the response is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "197",
+    "explanation": "The student's response mentions a 'single-tape Turing machine', which is included in the possible correct answers. However, the statement about a language being solved in quadratic time is not directly addressed in the possible correct answers, making the overall response somewhat unclear. Nonetheless, since 'single-tape Turing machines' is part of the response, it can be considered correct in that context.",
+    "score": true
+  },
+  {
+    "custom_id": "198",
+    "explanation": "The student's response correctly identifies the Cobham-Edmonds thesis and provides an accurate description of its significance regarding polynomial relationships in time complexities. This aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "199",
+    "explanation": "The student's response correctly describes the class P, which consists of decision problems solvable by a deterministic Turing machine in polynomial time. However, the response is more elaborate than the provided possible correct answers, which are simply 'P' or 'complexity class P'. Therefore, while the content is accurate, it does not match the expected concise answers.",
+    "score": false
+  },
+  {
+    "custom_id": "200",
+    "explanation": "The student provided two examples of measurements (time and space) that are relevant to algorithm complexity, which aligns with the possible correct answers. However, the answer is more detailed than simply stating 'time or space', which is acceptable as it expands on the concepts. Therefore, the student's response is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "201",
+    "explanation": "The student's response discusses complexity measures in algorithms, which is related to the concept of bounding. However, the response does not explicitly mention 'bounding' or directly relate to it as the possible correct answer suggests. Therefore, the answer is not correct.",
+    "score": false
+  },
+  {
+    "custom_id": "202",
+    "explanation": "The student's response discusses computational complexity and the use of classes to measure difficulty, which relates to the concept of 'complexity classes'. However, the response does not directly mention 'complexity classes' as a term, which is the specific answer provided in the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "203",
+    "explanation": "The student's response correctly identifies the three complexity classes (BPP, RP, and ZPP) associated with probabilistic Turing machines. However, the answer is more detailed than the possible correct answer, which simply lists the classes without elaboration. Despite this, the student accurately includes all the classes mentioned in the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "204",
+    "explanation": "The student's response mentions AC and NC in relation to complexity classes, which is relevant to Boolean circuits. However, it does not directly address the question '204' or provide a clear answer related to the possible correct answers provided, which are 'Boolean circuits;' and 'Boolean'. Therefore, the response is not correct.",
+    "score": false
+  },
+  {
+    "custom_id": "205",
+    "explanation": "The student's response mentions complexity classes associated with quantum Turing machines, which is relevant to the topic of quantum. However, the possible correct answer is simply 'quantum', which does not directly validate the student's detailed response about BQP and QMA. Therefore, the student's answer is not correct based on the provided possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "206",
+    "explanation": "The student's response correctly identifies #P as the complexity class of counting problems, which matches the provided possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "207",
+    "explanation": "The student's response correctly identifies that IP and AM are defined using interactive proof systems, which aligns with the provided correct answer 'Interactive'.",
+    "score": true
+  },
+  {
+    "custom_id": "208",
+    "explanation": "The student's response discusses complexity classes and the implications of relaxing time bounds, but it does not directly address the question or provide a measurement related to 'computation time' as specified in the possible correct answers. Therefore, the response is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "209",
+    "explanation": "The student's response mentions DTIME(f(n)), which is a general expression for time complexity, but does not specifically mention DTIME(n2) as required by the possible correct answers. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "210",
+    "explanation": "The student's response correctly identifies the Time Hierarchy Theorem and the Space Hierarchy Theorem, which are indeed the theorems referred to in the question. The explanation provided aligns with the essence of these theorems and their significance in complexity theory, thus making the response accurate.",
+    "score": true
+  },
+  {
+    "custom_id": "211",
+    "explanation": "The student's response includes the phrase 'a proper hierarchy on the classes', which matches one of the possible correct answers. Therefore, the student's answer is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "212",
+    "explanation": "The student's response discusses the time and space hierarchy theorems and their relevance to computational complexity, but it does not directly address the concept of 'quantitative' or 'quantitative statements' as specified in the possible correct answers. Therefore, the response does not align with the expected answers.",
+    "score": false
+  },
+  {
+    "custom_id": "213",
+    "explanation": "The student's response correctly identifies the time and space hierarchy theorems as foundational for understanding separation results within complexity classes. However, the response is more elaborate than the possible correct answers provided, which only mention the theorems without additional context. Since the core concept is accurately referenced, the answer can be considered correct in essence.",
+    "score": true
+  },
+  {
+    "custom_id": "214",
+    "explanation": "The student's response discusses the relationship between P and EXPTIME, but it does not directly address the question, which only requires the mention of 'EXPTIME'. Therefore, the response is not correct based on the provided possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "215",
+    "explanation": "The student's response mentions 'PSPACE', which is included in the possible correct answers. However, the phrasing and context of the response are not entirely clear or directly aligned with the expected answer. The mention of 'L' and 'space hierarchy theorem' does not directly confirm the correctness of the answer as it does not explicitly state 'PSPACE' as the answer. Therefore, while it references the correct term, it does not clearly fulfill the requirement.",
+    "score": false
+  },
+  {
+    "custom_id": "216",
+    "explanation": "The student's response correctly identifies the concept of a reduction, which is a key element in defining complexity classes. Although the response is more elaborate than the possible correct answers, it still accurately conveys the essence of what a reduction is.",
+    "score": true
+  },
+  {
+    "custom_id": "217",
+    "explanation": "The student's response discusses the concept of reduction in problem-solving but does not specifically mention 'another problem' as required by the possible correct answers. Therefore, the response does not align with the provided correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "218",
+    "explanation": "The student's response describes the concept of reduction in terms of difficulty between problems X and Y, but it does not explicitly mention 'X reduces to Y' or 'reduces', which are the key phrases in the possible correct answers. Therefore, the response is not aligned with the provided correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "219",
+    "explanation": "The student's response provides examples of polynomial-time and log-space reductions, which are not among the possible correct answers listed (Karp reductions, Levin reductions, Cook reductions). Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "220",
+    "explanation": "The student's response discusses polynomial time reductions in complexity theory, but it does not directly address the specific aspects of 'types of reductions' or 'the bound on the complexity of reductions' as outlined in the possible correct answers. Therefore, the response is not correct.",
+    "score": false
+  },
+  {
+    "custom_id": "221",
+    "explanation": "The student's response correctly identifies 'polynomial-time reduction' as a type of reduction, which is included in the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "222",
+    "explanation": "The student's response discusses the relationship between squaring an integer and multiplying two integers, which aligns with the possible correct answer. However, the response is overly complex and does not directly answer the question '222'. It does mention 'multiplying two integers', which is part of the correct answer, but it does not fully address the question itself.",
+    "score": false
+  },
+  {
+    "custom_id": "223",
+    "explanation": "The student's response provides a detailed explanation of polynomial time and its significance in algorithms, which aligns with the concept of 'polynomial' and 'polynomial time' mentioned in the possible correct answers. Therefore, the student's answer is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "224",
+    "explanation": "The student's response does not directly address the question of what must remain constant in a multiplication algorithm to produce the same outcome as squaring two integers. The possible correct answer 'input' suggests that the inputs must be the same for multiplication and squaring to yield the same result. The student discusses other aspects that are not necessary to the core requirement of identical inputs, making their answer incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "225",
+    "explanation": "The student's response correctly identifies that squaring can be reduced to multiplication, which aligns with the possible correct answer of 'multiplication'. However, the response is more elaborate than necessary and does not directly match the single-word answer provided. Nonetheless, the core concept is accurate.",
+    "score": true
+  },
+  {
+    "custom_id": "226",
+    "explanation": "The student's response discusses the complexity of problems in terms of input size and resources needed, which is not aligned with the provided correct answer about the type of reduction being used. Therefore, the student's answer does not address the question correctly.",
+    "score": false
+  },
+  {
+    "custom_id": "227",
+    "explanation": "The student's response correctly identifies a conflict in the reduction concept, but it does not explicitly state that 'if every problem in C can be reduced to X' or that 'problem in C is harder than X', which are the key points in the possible correct answers. Therefore, the response is not fully aligned with the provided answers.",
+    "score": false
+  },
+  {
+    "custom_id": "228",
+    "explanation": "The student's response discusses the relationship between problems X and C, suggesting that X can be solved using resources and time complexity similar to C. However, it does not directly address the correct answer, which is to 'solve any problem in C.' Therefore, the student's answer does not align with the provided possible correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "229",
+    "explanation": "The student's response correctly describes NP-hard problems and their relationship to NP, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "230",
+    "explanation": "The student's response refers to NP-hard problems, while the possible correct answer is 'NP-complete'. NP-complete problems are a subset of NP-hard problems, but the student's answer does not directly match the provided correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "231",
+    "explanation": "The student's response discusses the relationship between NP-complete problems and the classes P and NP, but it does not directly answer the question '231'. The possible correct answers are 'P' and 'NP', and the student did not provide either of these as a response.",
+    "score": false
+  },
+  {
+    "custom_id": "232",
+    "explanation": "The student's response correctly states that there is no known polynomial-time solution for \u03a01, which aligns with the provided possible correct answers. The reasoning about NP-completeness and the implications of polynomial-time solutions is also relevant, reinforcing the correctness of the statement.",
+    "score": true
+  },
+  {
+    "custom_id": "233",
+    "explanation": "The student's response discusses the implications of polynomial time solutions for NP-complete problems and their relationship to P and NP. However, the possible correct answer provided is simply 'NP', which does not align with the student's detailed explanation. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "234",
+    "explanation": "The student correctly identified the complexity class P, which is indeed characterized by computational tasks that can be solved by efficient algorithms. However, the response is more elaborate than necessary for the question, which only asks for the class itself. Despite this, the core answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "235",
+    "explanation": "The student's response correctly identifies the Cobham\u2013Edmonds thesis as the hypothesis associated with the complexity class of P, which aligns with the provided possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "236",
+    "explanation": "The student's response correctly identifies the complexity class NP and provides relevant examples of problems within this class. Therefore, the answer aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "237",
+    "explanation": "The student's response provides a detailed explanation of the Boolean Satisfiability Problem (SAT), which is indeed a classic example of a problem in the NP complexity class. However, the question seems to be asking for a specific term or phrase, which is 'Boolean satisfiability problem'. The student did not directly answer the question as it was posed, but rather elaborated on the topic. Therefore, while the content is relevant, it does not match the expected answer format.",
+    "score": false
+  },
+  {
+    "custom_id": "238",
+    "explanation": "The student's response incorrectly identifies the theoretical machine as a probabilistic Turing machine, while the possible correct answers specify 'deterministic Turing machines' and 'Turing machines'. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "239",
+    "explanation": "The student's response correctly identifies that if P is proven to be equal to NP, it would lead to more efficient solutions for many important problems. This aligns with the possible correct answers provided, specifically mentioning that these problems would be shown to have more efficient solutions.",
+    "score": true
+  },
+  {
+    "custom_id": "240",
+    "explanation": "The student's response discusses the implications of P = NP on protein structure prediction, which aligns with the possible correct answer provided. Therefore, the response is relevant and correct.",
+    "score": true
+  },
+  {
+    "custom_id": "241",
+    "explanation": "The student's response is correct as it states the prize for solving P=NP is $1,000,000, which matches the format of the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "242",
+    "explanation": "The student's response discusses Ladner's work on NP-intermediate problems, but it incorrectly states that P=NP implies problems not present in P or NP-complete, which is not accurate. The correct interpretation is that if P \u2260 NP, then such problems exist. The only correct aspect is the mention of Ladner, which is insufficient to deem the entire response correct.",
+    "score": false
+  },
+  {
+    "custom_id": "243",
+    "explanation": "The student's response correctly describes a problem that meets Ladner's assertion, which is indeed an NP-intermediate problem. However, the response does not explicitly use the term 'NP-intermediate' or 'NP-intermediate problems', which are the exact phrases provided in the possible correct answers. Therefore, while the content is accurate, it does not match the required terminology.",
+    "score": false
+  },
+  {
+    "custom_id": "244",
+    "explanation": "The student's response correctly identifies the Graph Isomorphism problem as an example of an NP-intermediate problem, which is included in the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "245",
+    "explanation": "The student's response discusses the graph isomorphism problem but does not directly answer the question with the specific terms provided in the possible correct answers. The response is more about the complexity classification of the problem rather than simply stating the problem itself.",
+    "score": false
+  },
+  {
+    "custom_id": "246",
+    "explanation": "The student's response mentions 'NP-complete', which is included in the possible correct answers. However, the phrasing is convoluted and does not directly answer the question clearly. Despite this, the key term is present.",
+    "score": true
+  },
+  {
+    "custom_id": "247",
+    "explanation": "The student's response correctly identifies the polynomial time hierarchy as relevant to the graph isomorphism problem, which aligns with the possible correct answers provided. However, the response goes beyond the scope of the answers by discussing implications and complexity changes, which are not part of the provided correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "248",
+    "explanation": "The student's response discusses the implications of the graph isomorphism problem being NP-complete, but it does not directly address the possible correct answers, which are 'second' or 'second level'. Therefore, the response does not match the expected answers.",
+    "score": false
+  },
+  {
+    "custom_id": "249",
+    "explanation": "The student's response correctly identifies Laszlo Babai and Eugene Luks as being associated with the algorithm related to graph isomorphism, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "250",
+    "explanation": "The student's response correctly identifies the computational problem associated with prime factorization as the Integer Factorization Problem, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "251",
+    "explanation": "The student's response does not accurately describe the integer factorization problem, which involves decomposing a number into its prime factors rather than comparing it to its square root.",
+    "score": false
+  },
+  {
+    "custom_id": "252",
+    "explanation": "The student's response correctly identifies the RSA algorithm as related to the integer factorization problem, which is a key aspect of modern cryptographic systems. However, the response does not explicitly mention 'modern cryptographic systems' as one of the possible correct answers. Therefore, while the response is relevant, it does not fully align with the provided possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "253",
+    "explanation": "The student's response correctly identifies the general number field sieve as a well-known algorithm associated with the integer factorization problem, which is included in the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "254",
+    "explanation": "The student's response discusses the hierarchy of complexity classes and mentions the 'hierarchy hypothesis,' but it does not directly address the idea of many known complexity classes being suspected to be unequal, which is the focus of the possible correct answers. Therefore, the response does not align with the provided correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "255",
+    "explanation": "The student's response correctly identifies the hierarchy of complexity classes as P \u2286 NP \u2286 PP \u2286 PSPACE, which matches the provided possible correct answer. However, the additional commentary about the potential equality of P and PSPACE and the implications for the hierarchy, while insightful, is not necessary to answer the question. The core expression is accurately stated.",
+    "score": true
+  },
+  {
+    "custom_id": "256",
+    "explanation": "The student's response correctly identifies that the complexity classes RP, BPP, PP, BQP, MA, and PH can be located in the hierarchy of complexity classes that exist between P and PSPACE, which aligns with the provided correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "257",
+    "explanation": "The student's response discusses the significance of proving strict inclusions between complexity classes and provides examples, which aligns with the idea of demonstrating that certain classes are unequal. However, the response goes beyond the specific answer provided in the possible correct answers, which only states 'Proving that any of these classes are unequal.' Therefore, while the student touches on relevant concepts, their answer is not a direct match to the possible correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "258",
+    "explanation": "The student's response correctly identifies that the complexity class of complement problems of NP problems is co-NP, which is a valid statement.",
+    "score": true
+  },
+  {
+    "custom_id": "259",
+    "explanation": "The student's response accurately describes the relationship between a problem in NP and its complement, indicating that the answers are reversed. This aligns with the provided possible correct answer 'reversed'.",
+    "score": true
+  },
+  {
+    "custom_id": "260",
+    "explanation": "The student's response correctly identifies the commonly believed relationship between P and co-NP as being 'not equal', which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "261",
+    "explanation": "The student's response discusses the implications of P and co-NP being unequal and correctly concludes that this would imply P \u2260 NP. However, the phrasing is somewhat indirect and does not explicitly state 'P is not equal to NP' or 'not equal' as required by the possible correct answers. Therefore, while the reasoning is sound, it does not match the expected answers precisely.",
+    "score": false
+  },
+  {
+    "custom_id": "262",
+    "explanation": "The student's response correctly identifies 'L' as the variable associated with problems solved within logarithmic space, which matches the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "263",
+    "explanation": "The student's response correctly identifies that L is either contained in P or equal to P, which aligns with the possible correct answers provided. However, the phrase 'strictly contained in P or equal to P' is also a valid interpretation, but the student's response does not explicitly state 'strictly contained'. Therefore, while the essence of the answer is correct, it does not match the exact wording of the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "264",
+    "explanation": "The student's response mentions 'many complexity classes' which aligns with the possible correct answers provided. However, it does not specifically mention 'complexity classes' as a standalone term. Overall, the response is relevant to the topic but does not fully match the phrasing of the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "265",
+    "explanation": "The student's response correctly identifies NL and NC as two complexity classes between L and P, which matches the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "266",
+    "explanation": "The student's response discusses the relationships between complexity classes, particularly L and P, and mentions the uncertainty of their relationship, which aligns with the possible correct answer regarding whether they are distinct or equal classes. Therefore, the student's answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "267",
+    "explanation": "The student's response correctly defines intractable problems, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "268",
+    "explanation": "The student's response correctly identifies and discusses exponential time algorithms, which aligns with the possible correct answers provided. However, the terminology used ('EXPTIME algorithms') is not explicitly listed in the possible correct answers, but the concept is accurately conveyed.",
+    "score": true
+  },
+  {
+    "custom_id": "269",
+    "explanation": "The student's response includes NP-complete problems, which is part of the possible correct answers. However, the response also includes NP-intermediate problems and EXPTIME-hard problems, which are not part of the provided correct answers. Therefore, the answer is not fully correct.",
+    "score": false
+  },
+  {
+    "custom_id": "270",
+    "explanation": "The student's response correctly identifies 'Presburger arithmetic', which is included in the list of possible correct answers. Therefore, the answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "271",
+    "explanation": "The student's response correctly states that algorithms have been developed to solve intractable problems efficiently in most cases, which aligns with the provided possible correct answers. Therefore, the response is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "272",
+    "explanation": "The student's response discusses the NP-complete knapsack problem, which is included in the possible correct answers. However, the response does not directly answer the question or provide a specific solution related to the knapsack problem as outlined in the possible correct answers. Therefore, while the mention of the NP-complete knapsack problem is relevant, it does not fully align with the expected answer format.",
+    "score": false
+  },
+  {
+    "custom_id": "273",
+    "explanation": "The student's response correctly states that the NP-complete knapsack problem can be solved in less than quadratic time, which aligns with the possible correct answers provided. However, the additional information about the general number field sieve and its time complexity is not relevant to the question asked.",
+    "score": true
+  },
+  {
+    "custom_id": "274",
+    "explanation": "The student's response discusses the knapsack problem, which is not one of the possible correct answers provided. The correct answers specifically refer to the NP-complete Boolean satisfiability problem, which the student did not mention.",
+    "score": false
+  },
+  {
+    "custom_id": "275",
+    "explanation": "The student's response provides detailed information about the development of mathematical models of computation and mentions specific researchers and their contributions. However, it does not directly align with the possible correct answers, which are more general statements about foundations being laid out. Therefore, the student's answer does not meet the criteria of the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "276",
+    "explanation": "The student's response mentions Alan Turing, who is listed as a possible correct answer. However, the focus of the question seems to be on identifying the most influential researcher in the context of computational complexity theory, where Juris Hartmanis is highlighted. Since the only possible correct answer provided is Alan Turing, the student's answer is partially correct but does not fully align with the question's intent.",
+    "score": false
+  },
+  {
+    "custom_id": "277",
+    "explanation": "The student's response correctly identifies the theoretical device as a Turing machine, which aligns with the possible correct answer provided. However, the response includes additional details about deterministic Turing machines that are not necessary for the question.",
+    "score": true
+  },
+  {
+    "custom_id": "278",
+    "explanation": "The student mentioned the year 1936, which is correct as it relates to Alan Turing's definitional model of a computing device. However, the answer is more detailed than what was asked for, but it still includes the correct year.",
+    "score": true
+  },
+  {
+    "custom_id": "279",
+    "explanation": "The student's response describes the function of a Turing machine but does not directly match the possible correct answer, which is simply 'a computer'. The student's answer is more elaborate and does not align with the expected response.",
+    "score": false
+  },
+  {
+    "custom_id": "280",
+    "explanation": "The student's response correctly identifies the paper 'On the Computational Complexity of Algorithms' by Juris Hartmanis and Richard Stearns as a significant work in the field of computational complexity. This matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "281",
+    "explanation": "The student's response correctly identifies Juris Hartmanis and Richard Stearns as the authors of 'On the Computational Complexity of Algorithms', which matches the provided possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "282",
+    "explanation": "The student's response correctly identifies the year 1965, which is included in the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "283",
+    "explanation": "The student's response includes additional complexity measures beyond just time and space complexity, which are not part of the provided possible correct answers. Therefore, while the student correctly identifies time and space complexity, the inclusion of other measures makes the answer not fully aligned with the expected responses.",
+    "score": false
+  },
+  {
+    "custom_id": "284",
+    "explanation": "The student's response provides information about Edmonds' characterization of a 'good' algorithm, but it does not directly answer the question, which only requires the year '1965'. Therefore, the response is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "285",
+    "explanation": "The student's response correctly identifies John Myhill as the person associated with the definition of linear bounded automata, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "286",
+    "explanation": "The student mentioned the year 1961, which is the only relevant information provided in the possible correct answers. However, the student included additional context about Raymond Smullyan and rudimentary sets, which is not necessary for the answer to be considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "287",
+    "explanation": "The student's response correctly identifies Hisao Yamada as the author of the paper published on real-time computations in 1962, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "288",
+    "explanation": "The student's response discusses polynomial time algorithms and the complexity class P, which is not related to the provided correct answer 'input encoding'. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "289",
+    "explanation": "The student's response does not address the question '289' or provide any relevant information related to 'encoding'. The answer is off-topic and does not match the possible correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "290",
+    "explanation": "The student's response correctly identifies Manuel Blum as the developer of axiomatic complexity theory, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "291",
+    "explanation": "The student's response does not relate to the provided correct answer, which is 'speed-up theorem'. Instead, it mentions Manuel Blum's axioms and the Fundamental Theorem of Arithmetic, which are not relevant to the correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "292",
+    "explanation": "The student's response correctly identifies the title of Richard Karp's paper as 'Reducibility Among Combinatorial Problems', which matches the possible correct answers provided. The additional context about the paper's significance is also accurate but not necessary for the correctness of the title.",
+    "score": true
+  },
+  {
+    "custom_id": "293",
+    "explanation": "The student's response correctly identifies that Richard Karp's paper addressed 21 combinatorial problems, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "294",
+    "explanation": "The student's response correctly identifies the abbreviation for Southern California as SoCal, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "295",
+    "explanation": "The student correctly identified that Southern California is comprised of 10 counties and listed them accurately, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "296",
+    "explanation": "The student's response accurately describes Southern California as a significant economic contributor, which aligns with the idea of it being an 'economic center' or 'major economic center.' Therefore, the response is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "297",
+    "explanation": "The student's response correctly identifies the ties as 'demographics and economic ties', which matches one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "298",
+    "explanation": "The student's response includes 'historical political divisions', which is part of the possible correct answers. However, it also adds 'demographics', which is not included in the possible correct answers. Therefore, the response is partially correct but not fully aligned with the provided answers.",
+    "score": false
+  },
+  {
+    "custom_id": "299",
+    "explanation": "The student's response correctly identifies the Greater Southern California Megaregion, which is included in the possible correct answers. However, the mention of Las Vegas and Tijuana is extraneous and not necessary for the answer to be considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "300",
+    "explanation": "The student's response correctly states that there are 11 megaregions in the United States, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "301",
+    "explanation": "The student's response identifies Nevada as the state that the megaregion expands to in the east, which matches one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "302",
+    "explanation": "The student's response correctly identifies that the megaregion extends across the Mexican border into Tijuana, which aligns with the possible correct answer 'Mexican'. However, the additional details about borders with Arizona and Nevada are not necessary for correctness based on the provided options.",
+    "score": true
+  },
+  {
+    "custom_id": "303",
+    "explanation": "The student's response includes Tijuana, which is part of the possible correct answers. However, it also includes additional information that is not part of the provided correct answers. Since the student mentioned Tijuana, which is correct, the answer can be considered partially correct but not fully aligned with the expected response.",
+    "score": true
+  },
+  {
+    "custom_id": "304",
+    "explanation": "The student's response mentions the Pacific Ocean, which is relevant to the question about the coastline of Southern California. However, the possible correct answer only includes the word 'Pacific', which does not fully encompass the student's response. Therefore, the answer is not considered correct based on the provided options.",
+    "score": false
+  },
+  {
+    "custom_id": "305",
+    "explanation": "The student's response correctly identifies that Southern California's population encompasses seven metropolitan areas, which aligns with the possible correct answer of 'seven'.",
+    "score": true
+  },
+  {
+    "custom_id": "306",
+    "explanation": "The student's response matches one of the possible correct answers, specifically 'over 12 million inhabitants'.",
+    "score": true
+  },
+  {
+    "custom_id": "307",
+    "explanation": "The student's response incorrectly identifies the Riverside-San Bernardino area as having the least number of inhabitants, while the possible correct answers indicate that the San Diego area has fewer inhabitants than both Riverside-San Bernardino and Los Angeles. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "308",
+    "explanation": "The student's response of 17,786,419 is indeed over 17.5 million, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "309",
+    "explanation": "The student's response mentions Lake Constance, which is not listed among the possible correct answers. The possible correct answers refer to the Colorado River, which is unrelated to the student's answer.",
+    "score": false
+  },
+  {
+    "custom_id": "310",
+    "explanation": "The student's response mentions the Sonoran Desert, which is not listed among the possible correct answers. The possible correct answers refer to the Colorado Desert, which is a different desert altogether.",
+    "score": false
+  },
+  {
+    "custom_id": "311",
+    "explanation": "The student's response correctly identifies the Mojave Desert, which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "312",
+    "explanation": "The student's response matches one of the possible correct answers, specifically 'the Mexico\u2013United States border'.",
+    "score": true
+  },
+  {
+    "custom_id": "313",
+    "explanation": "The student's response mentions cities that are part of California, but the question specifically asks for the answer 'California'. The response does not directly answer the question as required.",
+    "score": false
+  },
+  {
+    "custom_id": "314",
+    "explanation": "The student's response provides the population of Los Angeles as 3,792,621, which matches the possible correct answer. However, the additional information about the metropolitan area and its ranking is not relevant to the question asked.",
+    "score": true
+  },
+  {
+    "custom_id": "315",
+    "explanation": "The student's response correctly identifies Los Angeles as the most populous city in California, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "316",
+    "explanation": "The student correctly identified San Diego as the eighth most populous city in the nation, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "317",
+    "explanation": "The student's response correctly identifies that San Diego is located south of Los Angeles, which aligns with the possible correct answer 'south'.",
+    "score": true
+  },
+  {
+    "custom_id": "318",
+    "explanation": "The student's response identifies Ventura as the last county, but the possible correct answers provided do not include Ventura. Therefore, the response is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "319",
+    "explanation": "The student's response correctly identifies the country as the United States, which is included in the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "320",
+    "explanation": "The student's response provides information about five counties in Southern California but does not specifically address the question about the 'five most populous in the state.' Therefore, it does not align with the possible correct answers provided.",
+    "score": false
+  },
+  {
+    "custom_id": "321",
+    "explanation": "The student correctly identified that the lowest ranking one of the counties could have in terms of most populous counties in the United States is 15th, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "322",
+    "explanation": "The student's response refers to 'the county' as the smallest geographical region, which is a singular form. However, the possible correct answers include 'counties', which is the plural form. Since the student's answer does not match any of the provided correct answers, it is considered incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "323",
+    "explanation": "The student's response correctly identifies Hollywood as the district associated with the motion picture industry, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "324",
+    "explanation": "The student's response correctly identifies that the Hollywood district is part of Los Angeles, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "325",
+    "explanation": "The student's response correctly identifies the company that owns ABC as The Walt Disney Company, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "326",
+    "explanation": "The student's response mentions the automotive industry as a major industry in Los Angeles, but the possible correct answers provided are 'major record companies' and 'music', which are not addressed in the student's answer.",
+    "score": false
+  },
+  {
+    "custom_id": "327",
+    "explanation": "The student's response mentions 'Sony Pictures' and provides additional information about its operations, but it does not directly answer the question, which is simply '327'. The possible correct answer is 'Sony', which is not explicitly stated in the student's response.",
+    "score": false
+  },
+  {
+    "custom_id": "328",
+    "explanation": "The student's response discusses yachting culture in Southern California, which is unrelated to the provided possible correct answer of 'skateboard.' Therefore, the response does not align with the expected answer.",
+    "score": false
+  },
+  {
+    "custom_id": "329",
+    "explanation": "The student's response correctly identifies Tony Hawk as the professional skateboarder, which matches the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "330",
+    "explanation": "The student's response includes the name 'Shaun White,' which matches the possible correct answer. However, the additional information about his residence in southern California is not necessary for the answer to be considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "331",
+    "explanation": "The student's response mentions Southern California and compares it to Oahu, but the only correct answer provided is 'Oahu'. The student's statement does not directly match the possible correct answer, making it incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "332",
+    "explanation": "The student's response correctly identifies the shortened name of the annual yacht race as 'Transpac', which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "333",
+    "explanation": "The student's response includes the correct answer 'Palm Springs' which matches one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "334",
+    "explanation": "The student's response mentions 'popular beaches' which is part of the possible correct answers provided. Therefore, the student's answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "335",
+    "explanation": "The student's response correctly identifies Palm Springs as being located in the southern region of California, which aligns with one of the possible correct answers ('southern').",
+    "score": true
+  },
+  {
+    "custom_id": "336",
+    "explanation": "The student's response does not address the question regarding 'open spaces' or 'nearby open spaces'. Instead, it focuses on the aerospace industry and military presence in Palm Springs, which is unrelated to the provided possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "337",
+    "explanation": null,
+    "score": null
+  },
+  {
+    "custom_id": "338",
+    "explanation": "The student's response provides a specific latitude and a distance from San Jose, but the only relevant information from the possible correct answers is the distance of '11 miles'. The student did mention '11 miles', which aligns with the possible correct answer, but the additional details about latitude and location do not affect the correctness of the distance mentioned.",
+    "score": true
+  },
+  {
+    "custom_id": "339",
+    "explanation": "The student's response correctly identifies that 'southern' California refers to the southern-most counties of the state, which aligns with the concept of 'ten' as mentioned in the possible correct answers. However, the response does not explicitly state 'ten', which is the exact term provided in the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "340",
+    "explanation": "The student's response correctly identifies the Tehachapi Mountains as a boundary for southern California, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "341",
+    "explanation": "The student's response mentions 'the Tehachapi Mountains,' which is one of the possible correct answers. However, it does not explicitly mention 'northern' as required. Therefore, the response is partially correct but does not fully align with the expected answers.",
+    "score": false
+  },
+  {
+    "custom_id": "342",
+    "explanation": "The student's response correctly identifies Mexico as the country that used to rule California, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "343",
+    "explanation": "The student's response does not address the question '343' or relate to the possible correct answer 'Alta California'. Instead, it provides information about Los Angeles and Southern California, which is not relevant to the question.",
+    "score": false
+  },
+  {
+    "custom_id": "344",
+    "explanation": "The student's response provides additional context about Monterey's location but does not directly match the possible correct answer, which is simply 'Monterey'.",
+    "score": false
+  },
+  {
+    "custom_id": "345",
+    "explanation": "The student's response correctly identifies the legislation passed in 1850 as the Compromise of 1850, which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "346",
+    "explanation": "The student's response correctly identifies California as a free state, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "347",
+    "explanation": "The student's response mentions 'inequitable taxes,' which is included in the possible correct answers. Therefore, the student's answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "348",
+    "explanation": "The student's response refers to the regions inhabited by pro-slavery southerners as the 'South' or 'Southern States', which is accurate. However, the possible correct answer provided is 'Cow Counties', which does not align with the student's response. Therefore, the student's answer is incorrect based on the provided options.",
+    "score": false
+  },
+  {
+    "custom_id": "349",
+    "explanation": "The student's response correctly states that Southern California attempted to achieve separate statehood or territorial status three times in the 1850s, which aligns with the possible correct answer of 'three'.",
+    "score": true
+  },
+  {
+    "custom_id": "350",
+    "explanation": "The student's response correctly states that nearly 75% of voters approved the Pico Act of 1859, which aligns with the possible correct answers provided (75 and 75%).",
+    "score": true
+  },
+  {
+    "custom_id": "351",
+    "explanation": "The student's response incorrectly identifies Bernie Sanders as the Senator who was a strong advocate for the Pico Act, while the correct answer is Milton Latham.",
+    "score": false
+  },
+  {
+    "custom_id": "352",
+    "explanation": "The student's response provides information about the Los Angeles Times and its definition of southern California, which is relevant to the question. However, it does not directly match the possible correct answers, which only include the phrases 'the Los Angeles Times' and 'Los Angeles Times'. Therefore, the response is not considered correct.",
+    "score": false
+  },
+  {
+    "custom_id": "353",
+    "explanation": "The student's response provides additional context about Southern California and its counties, but it does not directly answer the question, which only asks for the year. The correct answer is simply '1900'.",
+    "score": false
+  },
+  {
+    "custom_id": "354",
+    "explanation": "The student's response mentions a change in definition in 1964, which does not match the possible correct answer of '1999'. Therefore, the response is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "355",
+    "explanation": "The student's response correctly identifies Imperial as the newer county added to the list, which matches one of the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "356",
+    "explanation": "The student's response correctly identifies that there are seven counties that make up southern California, which aligns with the possible correct answer of 'seven'.",
+    "score": true
+  },
+  {
+    "custom_id": "357",
+    "explanation": "The student's response discusses the categorization of private schools in India and provides examples of different types of private schools. However, this topic is unrelated to the possible correct answers, which mention 'regional tourism groups' and 'AAA Auto Clubs'. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "358",
+    "explanation": "The student's response mentions the California State Automobile Association, which is one of the possible correct answers provided. However, the response also includes additional information that is not part of the correct answers. Since it includes a correct answer, the response is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "359",
+    "explanation": "The student's response discusses the division of California into northern and southern regions by AAA clubs, which is related to the three-region point of view but does not directly mention or match the possible correct answers provided. Therefore, the response does not align with the expected answers.",
+    "score": false
+  },
+  {
+    "custom_id": "360",
+    "explanation": "The student's response correctly identifies the Tehachapi Mountains, which is synonymous with the terms 'the Tehachapis' and 'Tehachapis' provided in the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "361",
+    "explanation": "The student's response discusses the desert portions of north Los Angeles County in relation to southern California, but it does not directly match any of the possible correct answers provided, which are 'southern California' and 'southern'. Therefore, the response is not considered correct.",
+    "score": false
+  },
+  {
+    "custom_id": "362",
+    "explanation": "The student's response correctly identifies that Southern California's megalopolis ranks third in terms of population, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "363",
+    "explanation": "The student's response discusses the presence of undeveloped areas in southern California, which aligns with the concept of 'vast areas' mentioned in the possible correct answers. However, the response does not explicitly use the term 'vast areas' or directly confirm the extent of undeveloped land as indicated in the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "364",
+    "explanation": "The student's response describes characteristics of Southern Californian communities as being large, spread-out, and car-dependent, which aligns with the idea of suburban communities and the use of automobiles and highways. However, it does not explicitly mention 'suburban' or 'suburban communities' as stated in the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "365",
+    "explanation": "The student's response discusses various aspects of Southern California's economy and culture, but it does not mention 'highways,' which is the only possible correct answer provided. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "366",
+    "explanation": "The student's response describes the urban area of southern California in detail but does not directly match the possible correct answers, which specifically mention 'an international metropolitan region' or 'international metropolitan'. The student's answer lacks the specific terminology provided in the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "367",
+    "explanation": "The student's response does not address the question or relate to the provided possible correct answer, 'Camp Pendleton.' Instead, it discusses urbanization, economic inequality, and environmental issues, which are unrelated to the specific answer given.",
+    "score": false
+  },
+  {
+    "custom_id": "368",
+    "explanation": "The student's response mentions the Inland Empire, which is one of the possible correct answers. However, it does not mention Temecula and Murrieta, which are also part of the correct answers. Since the student included one of the correct answers, their response is partially correct but not fully aligned with the expected answers.",
+    "score": false
+  },
+  {
+    "custom_id": "369",
+    "explanation": "The student's response does not directly address the question '369' and instead provides information about the United States Census Bureau's classification of metropolitan areas, which is not relevant to the question.",
+    "score": false
+  },
+  {
+    "custom_id": "370",
+    "explanation": "The student's response mentions 'Orange County', which is a correct reference to the possible correct answers provided. However, the phrasing 'Orange Counties' is not used, and 'Orange' alone does not fully capture the context of the student's answer. Therefore, while the response is related, it does not match the exact phrasing of the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "371",
+    "explanation": "The student's response includes information about the 1990s, which is part of the possible correct answers. However, it also includes additional information about the 1980s, which is not relevant to the question. Since the focus is on the 1990s, the response is partially correct but not fully aligned with the expected answer.",
+    "score": false
+  },
+  {
+    "custom_id": "372",
+    "explanation": "The student's response correctly identifies the climate of Southern California as Mediterranean, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "373",
+    "explanation": "The student's response describes a characteristic of the climate in Southern California, but it does not match any of the possible correct answers provided. The only possible correct answer is 'infrequent rain', which the student did not mention.",
+    "score": false
+  },
+  {
+    "custom_id": "374",
+    "explanation": "The student's response mentions a specific temperature of 60 \u00b0F, which aligns with the general idea of the '60's' as a range. However, it does not explicitly match the term '60's' as a range, making it somewhat ambiguous.",
+    "score": false
+  },
+  {
+    "custom_id": "375",
+    "explanation": "The student's response provides specific information about snowfall in Fresno, which aligns with the idea of snow being 'very rare' in that region. However, the response does not explicitly use the term 'very rare' or directly answer the question as posed. Therefore, while the information is relevant, it does not fully meet the criteria of the possible correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "376",
+    "explanation": "The student's response provides a range of temperatures and historical data, but it does not match the possible correct answer of '70'. Therefore, the response is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "377",
+    "explanation": "The student's response includes the term 'varied,' which is one of the possible correct answers. Therefore, the response is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "378",
+    "explanation": "The student's response mentions the Pacific Ocean, which is part of the possible correct answers provided. However, the response is vague and does not directly answer the question '378'.",
+    "score": false
+  },
+  {
+    "custom_id": "379",
+    "explanation": "The student's response focuses on human-made landscapes in Southern California, which does not align with the provided possible correct answer 'topographic'. The answer does not address the concept of topography, which refers to the arrangement of the natural and artificial physical features of an area.",
+    "score": false
+  },
+  {
+    "custom_id": "380",
+    "explanation": "The student's response correctly mentions the 'Peninsular Ranges', which is included in the possible correct answers. Therefore, the answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "381",
+    "explanation": "The student's response discusses plateaus and geographical formations, which do not match the provided possible correct answers of 'valleys' or 'interior valleys'. Therefore, the response is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "382",
+    "explanation": "The student's response includes the figure '10,000', which matches the possible correct answer provided. Therefore, the student's answer is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "383",
+    "explanation": "The student's response correctly describes the earthquakes in southern California as generally being small, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "384",
+    "explanation": "The student's response correctly states the magnitude of the 1994 Northridge earthquake as 6.7, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "385",
+    "explanation": "The student's response discusses the property damage caused by the 1994 Northridge earthquake, which aligns with the possible correct answer of 'property damage.' Therefore, the response is relevant and correct.",
+    "score": true
+  },
+  {
+    "custom_id": "386",
+    "explanation": "The student's response correctly states that the 1994 earthquake cost over $20 billion in property damage, which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "387",
+    "explanation": "The student's response correctly identifies the San Andreas Fault as capable of producing a magnitude 8.0 earthquake, which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "388",
+    "explanation": "The student's response discusses earthquakes of magnitude 6.7 and provides relevant context, but it does not directly answer the question about the magnitude itself. The possible correct answers are '6.7+' and '6.7', which are not explicitly stated in the student's response.",
+    "score": false
+  },
+  {
+    "custom_id": "389",
+    "explanation": "The student's response discusses the Hayward Fault, which is not listed among the possible correct answers. The possible correct answers specifically mention the Puente Hills Fault, which is unrelated to the student's answer about the Hayward Fault.",
+    "score": false
+  },
+  {
+    "custom_id": "390",
+    "explanation": "The student's response does not match any of the possible correct answers, which are 'The USGS' and 'USGS'. Instead, the student provided additional information about the USGS's activities, which is not what was asked.",
+    "score": false
+  },
+  {
+    "custom_id": "391",
+    "explanation": "The student's response discusses earthquake forecasting and the likelihood of significant earthquakes, but it does not directly address the term 'occurrence' as specified in the possible correct answers. Therefore, the response does not align with the expected answer.",
+    "score": false
+  },
+  {
+    "custom_id": "392",
+    "explanation": "The student's response mentions cultural, political, and economic divisions, but the only possible correct answer provided is 'economically'. Since the student included additional aspects that were not part of the possible correct answers, their response is considered incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "393",
+    "explanation": "The student's response discusses various cities and their international recognition, but it does not directly address the term 'global' as specified in the possible correct answers. Therefore, the response does not align with the expected answer.",
+    "score": false
+  },
+  {
+    "custom_id": "394",
+    "explanation": "The student's response discusses economic activity and the role of cities in Southern California, which aligns with the possible correct answers of 'economic' and 'economic activity'. Therefore, the response is relevant and correct.",
+    "score": true
+  },
+  {
+    "custom_id": "395",
+    "explanation": "The student's response provides a specific population figure for Southern California as of the 2010 Census, which is relevant to the question. However, the only possible correct answer provided is '2010', which is not directly addressed in the student's response. Therefore, the student's answer does not align with the expected response.",
+    "score": false
+  },
+  {
+    "custom_id": "396",
+    "explanation": "The student's response does not address the concept of 'high growth rates' as mentioned in the possible correct answers. Instead, it focuses on the industries and characteristics of Southern California without linking them to growth rates.",
+    "score": false
+  },
+  {
+    "custom_id": "397",
+    "explanation": "The student's response correctly states the state average growth rate as 10.0%, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "398",
+    "explanation": "The student's response correctly identifies the tech-oriented economy in Northern California, specifically mentioning the Bay Area as a hub for the tech industry, which aligns with the provided possible correct answer 'tech-oriented'.",
+    "score": true
+  },
+  {
+    "custom_id": "399",
+    "explanation": "The student's response discusses the concepts of core and periphery regions in the context of world systems theory but does not identify or mention 'Greater Sacramento' as the region that began to grow and assert itself in the 2000s. Therefore, the answer does not align with the possible correct answer provided.",
+    "score": false
+  },
+  {
+    "custom_id": "400",
+    "explanation": "The student's response lists counties in southern California, but the possible correct answer refers to 'Metropolitan Statistical Areas', which is a different concept. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "401",
+    "explanation": "The student's response correctly identifies that there are two extended metropolitan areas in Southern California that exceed five million in population, which matches the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "402",
+    "explanation": "The student's response mentions that each extended metropolitan area has a population exceeding five million, which aligns with the possible correct answer of 'five million'. Therefore, the response is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "403",
+    "explanation": "The student's response correctly identifies the Southern Border Region, which is included in the possible correct answers. However, the additional detail about the metropolitan areas is not necessary for the answer to be considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "404",
+    "explanation": "The student's response matches the possible correct answer exactly.",
+    "score": true
+  },
+  {
+    "custom_id": "405",
+    "explanation": "The student's response correctly identifies Los Angeles as the largest city in California, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "406",
+    "explanation": "The student correctly identifies San Diego as the second largest city in California, which is consistent with the provided possible correct answers. However, the statement about there being no second largest city is incorrect, as San Diego is indeed the second largest city.",
+    "score": false
+  },
+  {
+    "custom_id": "407",
+    "explanation": "The student's response correctly states that there are twelve cities in southern California with a population of over 200,000 residents, which matches the possible correct answer of 'twelve'.",
+    "score": true
+  },
+  {
+    "custom_id": "408",
+    "explanation": "The student's response provides information about the number of cities in southern California with populations exceeding 100,000, which is not directly related to the question '408'. The possible correct answer only includes '100,000', which does not validate the student's claim about the number of cities. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "409",
+    "explanation": "The student's response correctly identifies Riverside as the developed southern Californian city not in close proximity to the coast, which matches the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "410",
+    "explanation": "The student's response mentions petroleum, which is included in the possible correct answers. Therefore, the response is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "411",
+    "explanation": "The student's response correctly identifies Hollywood as the notably named district in Southern California that is famous for tourism, aligning with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "412",
+    "explanation": "The student's response discusses the 'War on Terror' and violent Islamist groups, which is unrelated to the provided correct answer about 'the housing bubble.' Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "413",
+    "explanation": "The student's response does not match the possible correct answer 'diverse'. While the student describes the economy of Southern California, they do not mention diversity, which is the key aspect of the correct answer.",
+    "score": false
+  },
+  {
+    "custom_id": "414",
+    "explanation": "The student's response includes the phrase 'heavily impacted,' which directly matches one of the possible correct answers. Therefore, the student's answer is considered correct.",
+    "score": true
+  },
+  {
+    "custom_id": "415",
+    "explanation": "The student's response discusses the significance of the 1920s for various industries, which is relevant to the question. However, it does not directly answer the question '415' or provide a specific answer that matches the possible correct answer '1920s'. Therefore, the response is not correct.",
+    "score": false
+  },
+  {
+    "custom_id": "416",
+    "explanation": "The student's response focuses on the diversity of agricultural regions in Victoria, mentioning various types of farms and crops. However, it does not address the richness of the agricultural regions, which is the key aspect highlighted in the possible correct answers. Therefore, the response does not align with the expected answers.",
+    "score": false
+  },
+  {
+    "custom_id": "417",
+    "explanation": "The student's response discusses cattle, specifically dairy and beef cattle, which aligns with the possible correct answer of 'cattle'.",
+    "score": true
+  },
+  {
+    "custom_id": "418",
+    "explanation": "The student's response does not mention 'citrus' or any related agricultural products, which is the only possible correct answer provided. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "419",
+    "explanation": "The student's response correctly identifies 'aerospace' as the industry that has managed to survive major military spending cutbacks, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "420",
+    "explanation": "The student's response does not match any of the possible correct answers, which are 'business' and 'major business'. Instead, the student provided information about Urban and Central Business Districts in Southern California, which is not directly related to the answers provided.",
+    "score": false
+  },
+  {
+    "custom_id": "421",
+    "explanation": "The student's response correctly identifies that CBD stands for Central Business District, which aligns with the provided possible correct answer, 'Central business districts'.",
+    "score": true
+  },
+  {
+    "custom_id": "422",
+    "explanation": "The student's response mentions the Tower District in Fresno, which is not listed as a correct answer. The only correct answer provided is 'South Coast Metro', which does not match the student's response.",
+    "score": false
+  },
+  {
+    "custom_id": "423",
+    "explanation": "The student's response identifies Downtown Burbank as a Central Business District (CBD), which aligns with the concept of 'major business districts' mentioned in the possible correct answers. However, the specific term 'Central Business District' is not explicitly listed among the possible correct answers, leading to ambiguity.",
+    "score": false
+  },
+  {
+    "custom_id": "424",
+    "explanation": "The student's response mentions Downtown Santa Monica and Downtown Glendale as part of the Downtown Los Angeles Area, but this is not supported by the possible correct answers provided, which focus on the broader term 'Los Angeles Area' without specific references to downtown areas. Therefore, the response does not align with the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "425",
+    "explanation": "The student's response correctly identifies the location of Warner Center as being in the San Fernando Valley, which matches the provided possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "426",
+    "explanation": "The student's response mentions Century City as a district belonging to Los Angeles, which is accurate. However, the possible correct answer only lists 'Los Angeles' without any additional context. The student's answer does not directly match the provided correct answer, but it is related and correct in context.",
+    "score": false
+  },
+  {
+    "custom_id": "427",
+    "explanation": "The student's response mentions 'central business district' which relates to the concept of 'business districts', but it does not directly match the provided possible correct answers. Therefore, it is not considered correct.",
+    "score": false
+  },
+  {
+    "custom_id": "428",
+    "explanation": "The student's response mentions Riverside, which is included in the possible correct answers. However, it also specifies 'the other city' and includes additional context that is not directly supported by the possible correct answers. Therefore, while Riverside is correct, the phrasing and context may lead to ambiguity.",
+    "score": false
+  },
+  {
+    "custom_id": "429",
+    "explanation": "The student's response correctly identifies the Hospitality Business/Financial Centre as a business district in the San Bernardino-Riverside area, which is one of the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "430",
+    "explanation": "The student's response correctly identifies 'Orange County' as the county developing its business center, which matches one of the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "431",
+    "explanation": "The student's response does not mention any of the possible correct answers, which are specific to the University of California, Irvine. Instead, the response focuses on international corporations headquartered in southern California, which is unrelated to the question.",
+    "score": false
+  },
+  {
+    "custom_id": "432",
+    "explanation": "The student's response mentions 'West Irvine', which is included in the possible correct answers. However, the response does not directly answer the question '432'. Therefore, while it contains a correct element, it does not fully address the question asked.",
+    "score": false
+  },
+  {
+    "custom_id": "433",
+    "explanation": "The student's response does not mention 'the South Coast Metro' or 'South Coast Metro', which are the only possible correct answers provided. Therefore, the response is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "434",
+    "explanation": "The student's response does not directly address the question '434' or provide a relevant answer that matches the possible correct answer 'rapidly'. Instead, it discusses the development of business centers in Orange County without connecting to the specific term provided.",
+    "score": false
+  },
+  {
+    "custom_id": "435",
+    "explanation": "The student's response correctly identifies the central business district of San Diego as Downtown San Diego, which matches one of the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "436",
+    "explanation": "The student's response correctly identifies 'Northern San Diego' as a location where the majority of San Diego's business districts are found, which aligns with the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "437",
+    "explanation": "The student's response discusses the San Bernardino-Riverside area, which is not mentioned in the possible correct answers. The possible correct answers refer specifically to 'North County regions' or 'North County', which are unrelated to the student's focus on San Bernardino and Riverside. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "438",
+    "explanation": "The student's response mentions University City as a business district in San Diego, which is relevant to the question. However, the possible correct answer only includes 'San Diego' without any additional context about business districts. Therefore, the student's answer does not directly match the provided correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "439",
+    "explanation": "The student's response provides additional information about Los Angeles International Airport but does not directly match the possible correct answer, which is simply 'Los Angeles International Airport'.",
+    "score": false
+  },
+  {
+    "custom_id": "440",
+    "explanation": "The student's response discusses metrics related to airport congestion but does not mention 'passenger volume', which is the only possible correct answer provided. Therefore, the response does not align with the expected answer.",
+    "score": false
+  },
+  {
+    "custom_id": "441",
+    "explanation": "The student's response does not directly answer the question, which is simply '441'. The possible correct answer is 'third', which the student mentions but does not affirmatively respond to the question. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "442",
+    "explanation": "The student's response includes the correct name of the airport, but it also adds additional information that is not part of the possible correct answers. Since the question only requires the name of the airport, the response is not fully aligned with the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "443",
+    "explanation": "The student's response correctly identifies Van Nuys Airport as the world's busiest general aviation airport, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "444",
+    "explanation": "The student's response correctly identifies the commuter rail system as Metrolink, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "445",
+    "explanation": "The student's response mentions that there are seven lines in the Metrolink system, which aligns with the possible correct answer of 'seven'. Therefore, the student's answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "446",
+    "explanation": "The student correctly identified that six of the seven lines run out of Downtown Los Angeles, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "447",
+    "explanation": "The student's response correctly identifies Orange as the county connected by a single line to San Bernardino and Riverside, which matches the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "448",
+    "explanation": "The student's response correctly identifies the Port of Los Angeles as the busiest commercial port in the United States, which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "449",
+    "explanation": "The student's response correctly identifies the Port of Long Beach as one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "450",
+    "explanation": "The student's response correctly identifies the Port of Long Beach as belonging to the Southern California region, which aligns with the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "451",
+    "explanation": "The student's response includes the correct term 'The Tech Coast', which matches one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "452",
+    "explanation": "The student's response discusses research universities, which aligns with the possible correct answer 'research'. Therefore, the response is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "453",
+    "explanation": "The student's response correctly identifies the California Institute of Technology as a private research university, which aligns with the possible correct answer of 'private'.",
+    "score": true
+  },
+  {
+    "custom_id": "454",
+    "explanation": "The student's response correctly identifies that there are 5 campuses in the University of California system, which matches the number provided in the question.",
+    "score": true
+  },
+  {
+    "custom_id": "455",
+    "explanation": "The student's response correctly states that the California State University has 12 campuses, which matches the possible correct answer of '12'.",
+    "score": true
+  },
+  {
+    "custom_id": "456",
+    "explanation": "The student's response mentions the Los Angeles Rams as an NFL team, which is related to the possible correct answers 'NFL' and 'Professional'. However, the response does not directly match any of the possible correct answers provided.",
+    "score": false
+  },
+  {
+    "custom_id": "457",
+    "explanation": "The student's response mentions the Los Angeles Clippers as a basketball team, which is correct, but it does not directly answer the question '457' or relate to the possible correct answer 'NBA'. Therefore, the response is not correct in the context of the question.",
+    "score": false
+  },
+  {
+    "custom_id": "458",
+    "explanation": "The student's response correctly identifies that the Los Angeles Angels of Anaheim are associated with baseball, which is part of Major League Baseball (MLB). However, the answer does not explicitly mention 'MLB', which is the only possible correct answer provided.",
+    "score": false
+  },
+  {
+    "custom_id": "459",
+    "explanation": "The student's response correctly identifies the Los Angeles Kings as the other NHL team in Southern California, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "460",
+    "explanation": "The student's response correctly identifies the LA Galaxy as the lone MLS team in southern California, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "461",
+    "explanation": "The student's response correctly identifies Chivas USA as the team that was suspended from the MLS, which matches one of the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "462",
+    "explanation": "The student's response discusses the number of NFL teams and MLS teams in Los Angeles, but it does not directly address the question, which seems to imply a focus on the number 'two'. The response does not confirm or clarify the number 'two' as the answer to the question posed.",
+    "score": false
+  },
+  {
+    "custom_id": "463",
+    "explanation": "The student's response correctly identifies the year 2014, which is included in the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "464",
+    "explanation": "The student's response refers to Harvard Stadium, which is not one of the possible correct answers provided. The possible correct answers are 'StubHub Center' and 'the StubHub Center', neither of which relate to the student's answer about Harvard Stadium.",
+    "score": false
+  },
+  {
+    "custom_id": "465",
+    "explanation": "The student's response includes the correct year '2018' and the phrase 'in 2018', which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "466",
+    "explanation": "The student's response does not address the question, which is simply '466'. The possible correct answer provided is 'College', which is unrelated to the student's mention of sports in Southern California. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "467",
+    "explanation": "The student incorrectly stated that the Bruins belong to UCLA, while the Bruins actually refer to the athletic teams of UCLA. The correct answer is simply 'UCLA'.",
+    "score": false
+  },
+  {
+    "custom_id": "468",
+    "explanation": "The student's response includes the correct name of the team, 'Trojans', but it also contains additional information about the university. Since the possible correct answer is simply 'Trojans', the student's answer is partially correct but not fully aligned with the expected response.",
+    "score": false
+  },
+  {
+    "custom_id": "469",
+    "explanation": "The student's response provides information about teams in the Pac-12 Conference, but it does not directly answer the question '469' or relate to the possible correct answers, which are simply 'the Pac-12' or 'Pac-12'. Therefore, the response is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "470",
+    "explanation": "The student's response provides information about the UCLA Bruins and USC Trojans being in NCAA Division I and their rivalry, which is relevant to the question. However, the only possible correct answer provided is 'Division I', which the student did not explicitly mention as a direct answer to the question. Therefore, the response is not correct.",
+    "score": false
+  },
+  {
+    "custom_id": "471",
+    "explanation": "The student's response mentions Rugby, which is the only possible correct answer provided. Therefore, the response is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "472",
+    "explanation": "The student's response discusses rugby's popularity at the high school level, which aligns with the possible correct answer 'high school'. Therefore, the response is relevant and correct.",
+    "score": true
+  },
+  {
+    "custom_id": "473",
+    "explanation": "The student's response discusses the growing prominence of rugby in high schools and mentions it being added as an official school sport. This aligns with the possible correct answers provided, specifically 'an official school sport'.",
+    "score": true
+  },
+  {
+    "custom_id": "474",
+    "explanation": "The student's response correctly identifies BSkyB as the company formed by the merger of Sky Television and British Satellite Broadcasting, which matches the possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "475",
+    "explanation": "The student's response does not match the possible correct answer 'BSkyB'. While the information provided is related to Sky UK Limited, it does not directly answer the question with the correct term.",
+    "score": false
+  },
+  {
+    "custom_id": "476",
+    "explanation": "The student's response correctly identifies the year Sky Italia was acquired as 2014, which matches the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "477",
+    "explanation": "The student's response correctly identifies both the original name 'British Sky Broadcasting Group plc' and the later name change to 'Sky plc', both of which are included in the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "478",
+    "explanation": "The student's response includes the correct name 'Sky UK Limited', but it also adds unnecessary information about it being the name of the United Kingdom operation for BSkyB. The core answer is correct, but the additional context is irrelevant to the question.",
+    "score": true
+  },
+  {
+    "custom_id": "479",
+    "explanation": "The student's response provides a specific date (May 2006) which includes the year 2006, matching the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "480",
+    "explanation": "The student's response correctly states that Setanta was awarded two packages, which matches the possible correct answer of 'two'.",
+    "score": true
+  },
+  {
+    "custom_id": "481",
+    "explanation": "The student's response correctly identifies 'Sky' as the entity involved in the transaction, which is the only possible correct answer provided.",
+    "score": true
+  },
+  {
+    "custom_id": "482",
+    "explanation": "The student's response mentions \u00a31.3bn, which is one of the possible correct answers provided. Therefore, the student's answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "483",
+    "explanation": "The student's response mentions BSkyB and its exclusion from the ONdigital consortium, but the possible correct answer only includes 'ONdigital', which does not validate the student's statement about BSkyB.",
+    "score": false
+  },
+  {
+    "custom_id": "484",
+    "explanation": "The student's response discusses the involvement of BSkyB and the BBC in acquiring Premier League rights, but it does not mention or relate to the provided possible correct answers, which are 'Freeview' and 'ITV Digital'. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "485",
+    "explanation": "The student's response discusses the number of BSkyB channels available prior to October 2005, but it does not directly answer the question '485' or relate to the possible correct answer 'three'. Therefore, the response is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "486",
+    "explanation": "The student's response mentions 'Sky Travel' being replaced by 'Sky Three', which is not one of the possible correct answers provided. The correct answer is simply 'Sky Three'.",
+    "score": false
+  },
+  {
+    "custom_id": "487",
+    "explanation": "The student's response mentions 'Sky Travel' being rebranded as 'Sky Three', which is not listed among the possible correct answers. The only correct answer provided is 'Pick TV', which does not relate to the student's response.",
+    "score": false
+  },
+  {
+    "custom_id": "488",
+    "explanation": "The student's response mentions the Sky+ PVR service, which is directly related to the possible correct answer provided. Therefore, the student's answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "489",
+    "explanation": "The student's response correctly identifies the date 'September 2007', which is one of the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "490",
+    "explanation": "The student's response mentions a 'monthly fee', which is included in the possible correct answers. Therefore, the student's answer is correct.",
+    "score": true
+  },
+  {
+    "custom_id": "491",
+    "explanation": "The student's response correctly states that BSkyB discontinued the Sky+ Box in January 2010, which matches one of the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "492",
+    "explanation": "The student's response discusses Sky Q and its introduction, but it does not mention or relate to the provided possible correct answer, which is 'Sky+HD Box'. Therefore, the student's answer is incorrect.",
+    "score": false
+  },
+  {
+    "custom_id": "493",
+    "explanation": "The student's response correctly identifies VideoGuard as the scrambling system used by BSkyB, which matches the possible correct answers provided.",
+    "score": true
+  },
+  {
+    "custom_id": "494",
+    "explanation": "The student's response mentions that VideoGuard is owned by NDS, which is correct. However, the possible correct answer only lists 'NDS' without any additional context. Since the student's response includes the correct entity but adds extra information, it does not match the exact expected answer.",
+    "score": false
+  },
+  {
+    "custom_id": "495",
+    "explanation": "The student's response mentions that NDS is a company owned by Cisco Systems, which is related to Cisco Systems but does not match the possible correct answers exactly. The possible correct answers are 'Cisco Systems company' and 'Cisco Systems', neither of which directly confirms the student's statement about NDS.",
+    "score": false
+  },
+  {
+    "custom_id": "496",
+    "explanation": "The student's response provides detailed information about BSkyB's design authority over digital satellite receivers, which is relevant to the question. However, the question only requires the mention of 'BSkyB' as the correct answer. Since the student provided additional information rather than just the keyword, the response does not meet the criteria for correctness based on the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "497",
+    "explanation": "The student's response correctly identifies 'Sky+' as the name brand of the personal video recorder offered by BSkyB, which matches one of the possible correct answers.",
+    "score": true
+  },
+  {
+    "custom_id": "498",
+    "explanation": "The student's response correctly identifies the year 2007 as the time of the dispute between BSkyB and Virgin Media, which matches the possible correct answer.",
+    "score": true
+  },
+  {
+    "custom_id": "499",
+    "explanation": "The student's response discusses the removal of basic channels from Virgin Media's cable TV service, which is relevant to the topic. However, it does not directly answer the question '499' or mention 'the basic channels' or 'basic channels' as specified in the possible correct answers.",
+    "score": false
+  },
+  {
+    "custom_id": "500",
+    "explanation": "The student's response correctly states that BSkyB substantially increased the asking price for the channels, which aligns with the possible correct answers provided. Therefore, the response is accurate.",
+    "score": true
+  }
+]
